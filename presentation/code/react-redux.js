@@ -94,7 +94,7 @@ const TodoItemContainer = connect(
 
 
 // use container at App
-const TodoList = ({ list }) => {
+const TodoListWithContainer = ({ list }) => {
   return (
     <div>
       {list.map((id) => (
