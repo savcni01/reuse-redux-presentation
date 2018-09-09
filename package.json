@@ -11,6 +11,12 @@
     "export": "spectacle-renderer --delay 3000",
     "start": "cross-env NODE_ENV=development node server.js"
   },
+  "files": [
+    "assets/**",
+    "index.html",
+    "LICENSE.md",
+    "README.md"
+  ],
   "author": "",
   "license": "MIT",
   "dependencies": {
