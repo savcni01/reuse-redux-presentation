@@ -86,6 +86,7 @@ export default class Presentation extends React.Component {
 
   componentDidMount() {
     const importedSlides = [];
+    console.log('-----------')
     Promise.all(slidesImports).then((slidesImportsResolved) => {
       slidesImportsResolved.forEach((slide) => {
         // importedSlides.push(slide.default);
