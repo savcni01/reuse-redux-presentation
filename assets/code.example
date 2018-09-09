@@ -1,0 +1,28 @@
+import React from "react";
+import ReactDOM from "react-dom";
+import { createStore } from "redux";
+import { Provider, connect } from "react-redux";
+
+class TodoApp extends React.Component {
+  render() {
+  }
+}
+const todoAppReducer = {};
+
+// Render React Example App
+ReactDOM.render(
+  <TodoApp/>,
+  document.getElementById("root")
+);
+
+// This is the store we create with redux's createStore method
+const store = createStore(todoAppReducer, {});
+
+// Render React Example App with Provider
+// Provider is given the store as a prop
+ReactDOM.render(
+  <Provider store={store}>
+    <TodoApp/>
+  </Provider>,
+  document.getElementById("app-node")
+);
