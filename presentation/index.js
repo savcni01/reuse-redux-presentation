@@ -17,13 +17,13 @@ const slidesImports = [
   import("./slides/_140-share-school"),
   import("./slides/_150-share-behavior"),
   import("./slides/_200-reuse-in-redux-react"),
-  import("./slides/_255-redux-terms"),
+  import("./slides/_205-redux-terms"),
   import("./slides/_210-redux-flow"),
   import("./slides/_220-react-app"),
   import("./slides/_230-react-app-code"),
   import("./slides/_240-redux-store"),
   import("./slides/_250-redux-store-code"),
-  import("./slides/_255-redux-terms"),
+  import("./slides/_255-react-redux-terms"),
   import("./slides/_260-react-redux"),
   import("./slides/_270-react-redux-code"),
   import("./slides/_280-react-redux-connect"),
@@ -37,7 +37,7 @@ const slidesImports = [
   import("./slides/_360-counters-fixed"),
   import("./slides/_400-solutions-problem"),
   import("./slides/_410-requirements"),
-  import("./slides/_420-ideas"),
+  // import("./slides/_420-ideas"),
   import("./slides/_430-counters-sliced-code"),
   import("./slides/_440-counters-sliced"),
   import("./slides/_450-counters-isolated-code"),
@@ -86,7 +86,6 @@ export default class Presentation extends React.Component {
 
   componentDidMount() {
     const importedSlides = [];
-    console.log('-----------')
     Promise.all(slidesImports).then((slidesImportsResolved) => {
       slidesImportsResolved.forEach((slide) => {
         // importedSlides.push(slide.default);

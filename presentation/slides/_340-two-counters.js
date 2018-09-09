@@ -1,12 +1,12 @@
 import React from "react";
 import { Slide, Heading } from "spectacle";
-import { TwoCountersApp } from "../live/counter";
+import { TwoCountersApp } from "../live/counters-two";
 
 export const notes = `
-* lets see what we have at state
- 
-_TODO:_
-* add logger
+* Bo nire eih ze oved.
+* Ma she roim esh po baya, 6nej Counters ovdim be yahad 
+* Ve eih ef6ar lirot mi debug:
+6nej Containers ovdim im oto State
 `;
 
 // noinspection JSUnusedGlobalSymbols

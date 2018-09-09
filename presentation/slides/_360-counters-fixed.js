@@ -1,14 +1,12 @@
 import React from "react";
 import { Slide, Heading } from "spectacle";
-import { TwoCountersFixed } from "../live/counter";
+import { TwoCountersFixed } from "../live/counters-two-fixed";
 
 export const notes = `
+* roim she ahsav akol' oved kmo she amur laavod
 
-Lets see what we have at state
-
-_TODO:_
-
-* add correct app
+* gam kshe bodkim be debug, 
+roim she akol oved kmo she carih, TOP, BOTTOM
 
 `;
 

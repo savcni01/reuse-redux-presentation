@@ -7,36 +7,33 @@ export const notes = `
 * Epshar leagid she esh kama ramot shel code reuse
 * Anahnu yaholim Reuse Presentational Components - ze day pashut ve straight forward
 * Archetectura shel' React atsma notenet efsharut laasot at ze.
-* Mi tsad sheni, esh od efsharut, im applikatsiya oved im separate sub-modules, 
-* ve/or meshtameshet MicroFrontend arketectura, ve dei meurkevet
-* Be derh klal esh efsharut reuse sub-models or eih she anahnu korim Widgetim as Blackbox
-* ... bli mamsh youdea eih ze nivne befnim, pashut integrate otam dereh API she hem notnim.
-* Po ani yahol lishloah kulam me she meonen otam nose shel Shared React Perceptional Components Library 
-* or nose shel' Reusable Widgets le ahad me a tolkim a kodmim shel Big Bang Theory Meetapim
-* ze talk shel Vlad Misteskiy al "Micro Fronten Architectured" (po atem yahol lirot link)
-* Aval me emtsa bein shnei mekrim esh mikre she Presentional Component the le maspic
-* ve Widget ze yoter me day le tsrahim shelanu.
-* Ve anahnu Pahut rotsim laasot reuse
-* le Redux Container (klomar Actions, Reducers, stateToProps ve dispatchTiProp mapping, mivne shel Store)
-* at the middle
-* переиспользование бизнес логики компонентов:
-* i.e. ReduxContainer (ConnectedComponents) + reducers
-* Redux reuse limits/issues
-* "god" store
-* container singleton, 
-* boilerplate, 
-* best for middle size apps
+* Mi cad sheni, esh od efsharut... im applikacia dei gdol'a im separated Sub-Modules, 
+or le dugma im aplikacia meshtameshet MicroFrontends arketectura. 
+* Esh efsharut reuse Sub-Modules or eih she anahnu korim Widgets as Blackbox, 
+bli mamsh youdea eih ze nivne befnim, pashut integrate otam dereh API she hem notnim.
+* Po ani jahol' lishloah kulam mi she meonen otam nose shel':
+Shared React Perceptional Components Library or nose shel' Reusable Widgets 
+le ahad me a tolkim a kodmim shel Big Web Theory Meetaps.
+* Ze talk shel Vlad Misteskiy al "MicroFrontends" (ba sof shel' presenatcia ani iten link).
+* Lefamim reuse shel' Presentational Component ze le maspik
+* Ve reuse dereh Widget ze yoter mi day le-tsrahim shelanu.
+
+* Anahnu pa6ut rocim laasot reuse le-Redux Container 
+(klomar Actions, Reducers, stateToProps ve-dispatchToProps mapping, mivne 6el' Store)
+* Ve po mehakim lanu ma she nikra: limits ve-challenges: 
+biglal she Store be Redux ze "god" object, 
+ve kol Container ze sug shel singleton,
+ve biglal boilerplate shel Redux.
 
 _TODO:_
 * link to Vlad's module
-* translate comments 
 `;
 
 export const markdown = `
-### Reuse in Redux App 
+### Levels of reusing
 
 * Presentational Components
-* Sub modules (Widgets) (link to Vlad's talk)
+* Sub Modules (Widgets)
 * Redux Container: Behaviour and Business logic
 * Limits and issues in Redux Container reuse
 `;
