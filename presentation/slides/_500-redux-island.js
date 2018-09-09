@@ -13,7 +13,7 @@ const bg = require("../../assets/redux-island.jpg");
 export default (
   <Slide
     transition={["fade"]}
-    bgImage={bg.replace("/", "")}
+    bgImage={bg.replace("./", "")}
     bgDarken={0}
   >
     <Heading

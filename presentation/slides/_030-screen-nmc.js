@@ -11,7 +11,7 @@ const bg = require("../../assets/nmc2.png");
 export default (
   <Slide
     transition={["fade"]}
-    bgImage={bg.replace("/", "")}
+    bgImage={bg.replace("./", "")}
     bgDarken={0}
   />
 );

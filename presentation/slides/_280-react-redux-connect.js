@@ -24,7 +24,7 @@ _TODO:_
 
 export const markdown = `
 #### React-Redux Connect
-![React Redux Connect](${images.reduxFlow.replace("/", "")})
+![React Redux Connect](${images.reduxFlow.replace("./", "")})
 `;
 
 export default (

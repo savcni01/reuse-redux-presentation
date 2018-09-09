@@ -26,7 +26,7 @@ _TODO:_
 
 export const markdown = `
 ###### React Todo App
-![React TODO App](${images.reduxFlow.replace("/", "")})
+![React TODO App](${images.reduxFlow.replace("./", "")})
 `;
 
 export default (

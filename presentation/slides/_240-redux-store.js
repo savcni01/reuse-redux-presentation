@@ -20,7 +20,7 @@ export const markdown = `
 
 ----
 
-![Redux Store Flow](${images.reduxFlow.replace("/", "")})
+![Redux Store Flow](${images.reduxFlow.replace("./", "")})
 `;
 
 export default (

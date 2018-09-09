@@ -38,22 +38,22 @@ export default (
     <Layout>
       <Fill>
         <Appear fid="1">
-          <Image src={images.nikaPiano.replace("/", "")}/>
+          <Image src={images.nikaPiano.replace("./", "")}/>
         </Appear>
       </Fill>
       <Fill>
         <Appear fid="2">
-          <Image src={images.vikaDance.replace("/", "")}/>
+          <Image src={images.vikaDance.replace("./", "")}/>
         </Appear>
       </Fill>
       <Fill>
         <Appear fid="3">
-          <Image src={images.nikaDance.replace("/", "")}/>
+          <Image src={images.nikaDance.replace("./", "")}/>
         </Appear>
       </Fill>
       <Fill>
         <Appear fid="4">
-          <Image src={images.vikaPiano.replace("/", "")}/>
+          <Image src={images.vikaPiano.replace("./", "")}/>
         </Appear>
       </Fill>
     </Layout>

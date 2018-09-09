@@ -18,7 +18,7 @@ const images = {
 export default (
   <Slide
     transition={["fade"]}
-    bgImage={images.morning1.replace("/", "")}
+    bgImage={images.morning1.replace("./", "")}
     bgDarken={0.5}
   >
     <Heading
@@ -27,7 +27,7 @@ export default (
       textColor="secondary"
     >Reuse help solve issues</Heading>
     <Appear fid="1">
-      <Image src={images.morning2.replace("/", "")}/>
+      <Image src={images.morning2.replace("./", "")}/>
     </Appear>
   </Slide>
 );

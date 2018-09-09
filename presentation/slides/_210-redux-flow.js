@@ -18,7 +18,7 @@ const img = require("../../assets/redux-flow.gif");
 
 export const markdown = `
 #### Basic Redux Flow
-![Redux Flow](${img.replace("/", "")})
+![Redux Flow](${img.replace("./", "")})
 `;
 
 export default (

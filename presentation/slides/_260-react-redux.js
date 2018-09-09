@@ -21,7 +21,7 @@ _TODO:_
 
 export const markdown = `
 #### React-Redux Provider
-![Redux Store Flow](${images.reduxFlow.replace("/", "")})
+![Redux Store Flow](${images.reduxFlow.replace("./", "")})
 `;
 
 export default (

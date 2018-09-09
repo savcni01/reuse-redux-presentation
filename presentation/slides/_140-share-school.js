@@ -18,7 +18,7 @@ export const notes = `
 export default (
   <Slide
     transition={["fade"]}
-    bgImage={images.school1.replace("/", "")}
+    bgImage={images.school1.replace("./", "")}
     bgDarken={0.5}
   >
     <Heading
@@ -27,7 +27,7 @@ export default (
       textColor="secondary"
     >Content can be different</Heading>
     <Appear fid="1">
-      <Image src={images.school2.replace("/", "")}/>
+      <Image src={images.school2.replace("./", "")}/>
     </Appear>
   </Slide>
 );
