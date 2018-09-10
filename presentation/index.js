@@ -1,9 +1,27 @@
 import React from "react";
 import { Deck, Slide } from "spectacle";
-import createTheme from "spectacle/lib/themes/default/";
 import markdown2html from "./utils/markdown2html";
+// import createTheme from "spectacle/lib/themes/default/";
+import createTheme from "spectacle-theme-nova";
+
+require("normalize.css");
+require("spectacle/lib/themes/default/prism.light");
+require("./prism-tomorrow.css");
+
+const theme = createTheme();
+
+// const theme = createTheme({
+//   primary: "white",
+//   secondary: "black",
+//   tertiary: "gray",
+//   quaternary: "lightgray"
+// }, {
+//   primary: "open-sans",
+//   secondary: "Helvetica"
+// });
 
 const slidesImports = [
+  import("./slides/_000-a"),
   import("./slides/_000-intro"),
   import("./slides/_010-nik"),
   import("./slides/_015-anons"),
@@ -52,21 +70,6 @@ const slidesImports = [
   // import("./slides/430-redux-island-code"),
   import("./slides/_990-final")
 ];
-
-require("normalize.css");
-require("spectacle/lib/themes/default/prism.light");
-require("./prism-tomorrow.css");
-
-// const theme = createTheme();
-const theme = createTheme({
-  primary: "white",
-  secondary: "black",
-  tertiary: "gray",
-  quaternary: "lightgray"
-}, {
-  primary: "open-sans",
-  secondary: "Helvetica"
-});
 
 try {
   // noinspection JSUnresolvedVariable
