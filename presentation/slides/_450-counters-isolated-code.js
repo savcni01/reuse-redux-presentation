@@ -2,29 +2,53 @@ import React from "react";
 import CodeSlide from "spectacle-code-slide";
 
 export const notes = `
-* isolated version very close to what we need
-* lets check it works
+* Bo nenase laasot et ze
 
-_TODO:_
-* change code
+* nathil shuv mi mivne shel' State
+
+* be gadol anahnu le crihim shhum shenuim be-CounterApp
+akol' kvar muhan
+
+* ein gam shinuim be Container
+
+* ve be-mapStateToProps
+
+* ve po be mapSiaptchToProps, anahnu ken, yaholim leosif
+isolation shel' Action.
+Im esh isolateId, as bemcom originalDiapatch, 
+meacrim funkcia Dispatch hadasha
+she mekabelet action, ose transformation/isolation shel' Action.type
+mosifa prefix (clomar isolateId), ve rak as diaptch IsolatedAction
+
+* Kaha anahnu potrim issue im oto Action le shnej reducers
+Aval reducer ka rega lyo yodea laavod im prefixed actions
+
+* Az be zman she ossim combinedReducer, anahnu osim 
+isolation gam le-Reducers
+
+* isolateReducer ze HOF: mekabelet reducer -> mahzira isolatedReducer
+she reduce state al' basis prefixed (isolated) Action
+isolatedReducer parse action.type le prefix ve unisolatedAction
+bodek she prefix matim le isoalteId she mekablim kmo parameter shel 
+isolateReducer funckcia
+Ve im hu le matim, pashut mahzerim state, ve le osim shum reducing
+Aval im isolateId ve prefix domim, az maricim originalReducer im unisolateAction
 `;
 
 export default (
   <CodeSlide
     transition={["fade"]}
     lang="js"
-    code={require("raw-loader!../code/counter")}
+    code={require("raw-loader!../code/counters-isolated")}
     ranges={[
-      { loc: [292, 298], title: "Isolated Counters Example" },
-      { loc: [40, 44] }, // react app
-      { loc: [48, 49] }, // create store
-      { loc: [53, 57] }, // provider
-      { loc: [77, 81] }, // container
-      { loc: [14, 22] }, // todo item
-      { loc: [60, 65] }, // mapStateToProps
-      { loc: [67, 75] }, // mapDispatchToProps
-      { loc: [84, 92] }, // use container
-      { loc: [77, 81] } // container
+      { loc: [8, 15], title: "Isolated Counters Example" },
+      { loc: [142, 155] }, // react app
+      { loc: [136, 140] }, // container
+      { loc: [101, 111] }, // mapStateToProps
+      { loc: [113, 130] }, // mapDispatchToProps
+      { loc: [18, 34] }, // reducer
+      { loc: [53, 60] }, // combinedReducer
+      { loc: [37, 49] } // isolateReducer
     ]}
   />
 );

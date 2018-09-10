@@ -37,17 +37,19 @@ const slidesImports = [
   import("./slides/_360-counters-fixed"),
   import("./slides/_400-solutions-problem"),
   import("./slides/_410-requirements"),
-  // import("./slides/_420-ideas"),
   import("./slides/_430-counters-sliced-code"),
   import("./slides/_440-counters-sliced"),
   import("./slides/_450-counters-isolated-code"),
   import("./slides/_460-counters-isolated"),
+  import("./slides/_470-ideas"),
   import("./slides/_500-redux-island"),
+  import("./slides/_503-island-parts"),
+  import("./slides/_505-island-start"),
   import("./slides/_510-counters-island-code"),
   import("./slides/_520-counters-island"),
   import("./slides/_540-island-summary"),
-  import("./slides/420-redux-island-internals"),
-  import("./slides/430-redux-island-code"),
+  // import("./slides/420-redux-island-internals"),
+  // import("./slides/430-redux-island-code"),
   import("./slides/_990-final")
 ];
 

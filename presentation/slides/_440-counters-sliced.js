@@ -1,16 +1,20 @@
 import React from "react";
 import { Slide, Heading } from "spectacle";
-import { TwoCountersSliced } from "../live/counter";
+import { TwoCountersSliced } from "../live/counters-sliced";
 
 
 export const notes = `
-* sliced version (not working because of action-reducers)
-* check the logs ->
-* explain why it happen ->
-* the same action catch by both of reducers
- 
-_TODO:_
-* check/change
+* Roim po 6e 6nej Conters meshtamshim Statim shonim
+lamrot she meshtamsim otam mapStateToProps, mapDispatchToProps
+
+* Aval im anahnu nenase leahsnot ehad mi Counters,
+Nire 6e esh shimuim gam be TOP ve gam be-Bottom
+
+* Bo nistakel log, ve nire 6e oto Action catch paamaim,
+lamrot 6e anahnu osinu slise le State
+ze kore biglal 6e combined reducer maric Action le 6hnej slicim
+
+* So anahnu crihim incapsulate gam Action-Reducer
 `;
 
 export default (

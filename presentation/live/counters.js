@@ -1,23 +1,15 @@
 /* eslint-disable no-invalid-this,no-console,dot-notation */
 import React from "react";
 import { number, func } from "prop-types";
-import { applyMiddleware, compose, createStore, combineReducers, bindActionCreators } from "redux";
+import { combineReducers, bindActionCreators } from "redux";
 import { Provider } from "react-redux";
 import {
   islandedConnect,
   isolateReducer,
   makeReducer
 } from "react-redux-island";
-import { logger } from "redux-logger";
+import { createStore } from "./utils";
 
-// enhance createStore for logger/debugger and
-export const createStoreEnhanced = (rootReducer, initialState) => {
-  const reduxDevtoolsExtCompose = window["__REDUX_DEVTOOLS_EXTENSION_COMPOSE__"];
-  if (typeof reduxDevtoolsExtCompose === "function") {
-    return createStore(rootReducer, initialState, reduxDevtoolsExtCompose(applyMiddleware(logger)));
-  }
-  return createStore(rootReducer, initialState, compose(applyMiddleware(logger)));
-};
 
 class Counter extends React.Component {
   static propTypes = {
@@ -56,7 +48,7 @@ class Counter extends React.Component {
 //
 //
 // ISLAND CONTAINER
-export const initialState = {
+const initialState = {
   top: { count: 3 },
   my: {
     custom: {
@@ -90,7 +82,7 @@ const actionsMap = {
 const reducer = makeReducer({ actionsMap, initialState });
 
 // combined reducer
-export const combinedReducer = combineReducers({
+const combinedReducer = combineReducers({
   top: isolateReducer(["top"], reducer),
   my: combineReducers({
     custom: combineReducers({
@@ -100,10 +92,12 @@ export const combinedReducer = combineReducers({
 });
 
 // island store
-const store = createStoreEnhanced(combinedReducer, initialState);
+const store = createStore(combinedReducer, initialState);
 
 // island state amd dispatch mapping
-const mapStateToProps = (slicedState, props, state) => slicedState;
+const mapStateToProps = (slicedState, props, state) => ({
+  count: slicedState.count
+});
 
 const mapDispatchToProps = (dispatch) => ({
   increment: bindActionCreators(incrementCounter, dispatch),
@@ -111,7 +105,7 @@ const mapDispatchToProps = (dispatch) => ({
 });
 
 // create isolated Container
-export const CounterContainer = islandedConnect(
+const CounterContainer = islandedConnect(
   mapStateToProps,
   mapDispatchToProps
 )(Counter);

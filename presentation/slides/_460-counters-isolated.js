@@ -1,16 +1,18 @@
 import React from "react";
 import { Slide, Heading } from "spectacle";
-import { TwoCountersIsolated } from "../live/counter";
+import { TwoCountersIsolated } from "../live/counters-isolated";
 
 export const notes = `
-* lets check how it works 
-* isolated version, still have a lot of issues
-* but very close to what we need
-* generally we just need to incapsulate our workarounds
-* at custom connect HOF of reducer
- 
-_TODO:_
-* check/change
+* Bo nivdok she akol oved kmo she racinu
+
+* Bo nire am be debug log, roim she app ose dispach 
+Prefixed (isolated) Actions
+Ve isolatedReducers youdim leahavin im the action shelo
+az unisolate Action ve leoric oto
+
+* Girsa a zoti adain esh la lyo meat issues
+
+* Aval thze meod karov le ma she racinu
 `;
 
 // noinspection JSUnusedGlobalSymbols
