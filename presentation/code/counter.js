@@ -30,7 +30,7 @@ export const INITIAL_STATE = { count: 0 };
  @param {String} action.type - type of action
  @returns {Object} new state
  **/
-export const reducer = function (state = INITIAL_STATE, action) {
+export const reducer = function (state, action) {
   switch (action.type) {
     case "COUNTER_INCREMENT":
       return Object.assign({}, state, { count: state.count + 1 });
@@ -79,7 +79,7 @@ class Counter extends React.Component {
   };
 
   render() {
-    return (<div>
+    return (<div className="counter-example">
       <h2>{this.props.count}</h2>
       <fieldset>
         <button onClick={this.handlePlus}>
@@ -129,14 +129,14 @@ export const INITIAL_STATE_TWO = {
 };
 
 // custom combined reducer
-export const customCombinedReducer = (state, action) => {
-  const oneMoreCounter = reducer(state.oneMoreCounter, action);
-  const newState = { ...state, oneMoreCounter };
-  return reducer(newState, action);
-};
+// export const customCombinedReducer = (state, action) => {
+//   const oneMoreCounter = reducer(state.oneMoreCounter, action);
+//   const newState = { ...state, oneMoreCounter };
+//   return reducer(newState, action);
+// };
 
 // new store for two counters
-const twoCountersStore = createStoreEnhanced(customCombinedReducer, INITIAL_STATE_TWO);
+const twoCountersStore = createStoreEnhanced(reducer, INITIAL_STATE_TWO);
 
 // Two Counters App
 export const TwoCountersApp = () => (
@@ -187,7 +187,7 @@ export const combinedReducer = combineReducers({
 });
 
 // store for two counters
-const tobBottomCountersStore = createStore(combinedReducer, INITIAL_STATE_TWO);
+const tobBottomCountersStore = createStore(combinedReducer, INITIAL_STATE_FIXED);
 
 // top and bottom props mapping
 const mapStateToPropsTop = (state) => state.top;

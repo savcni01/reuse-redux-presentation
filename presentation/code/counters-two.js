@@ -5,7 +5,7 @@ import { connect, Provider } from "react-redux";
 import { createStore } from "./utils";
 
 // TRY TO ADD ONE MORE COUNTER
-export const INITIAL_STATE = {
+const INITIAL_STATE = {
   count: 0,
   "oneMoreCounter": {
     count: 0
@@ -31,7 +31,7 @@ const reducer = function (state = INITIAL_STATE, action) {
 };
 
 // new store for two counters
-const store = createStore(reducer, {});
+const store = createStore(reducer);
 
 // Presentational Component
 class Counter extends React.Component {
@@ -54,7 +54,7 @@ class Counter extends React.Component {
   };
 
   render() {
-    return (<div>
+    return (<div className="counter-example">
       <h2>{this.props.count}</h2>
       <fieldset>
         <button onClick={this.handlePlus}>

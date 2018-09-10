@@ -10,7 +10,7 @@ const INITIAL_STATE = {
 };
 
 // counter reducer
-const reducer = function (state, action) {
+const reducer = function (state = INITIAL_STATE, action) {
   switch (action.type) {
     case "COUNTER_INCREMENT":
       return {
@@ -28,7 +28,7 @@ const reducer = function (state, action) {
 };
 
 // create store for Counter App
-const store = createStore(reducer, {});
+const store = createStore(reducer);
 
 // Presentational Component
 class Counter extends React.Component {
@@ -51,7 +51,7 @@ class Counter extends React.Component {
   };
 
   render() {
-    return (<div>
+    return (<div className="counter-example">
       <h2>{this.props.count}</h2>
       <fieldset>
         <button onClick={this.handlePlus}>
