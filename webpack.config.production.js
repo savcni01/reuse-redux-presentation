@@ -31,7 +31,7 @@ module.exports = {
       loader: "html-loader!markdown-loader?gfm=false"
     }, {
       test: /\.(js|jsx)$/,
-      exclude: /node_modules/,
+      exclude: /(node_modules|presentation\/code)/,
       loader: "babel-loader"
     }, {
       test: /\.css$/,

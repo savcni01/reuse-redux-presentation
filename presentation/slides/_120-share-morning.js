@@ -15,15 +15,16 @@ const images = {
   morning2: require("../../assets/morning-2.jpg")
 };
 
+// noinspection JSUnusedGlobalSymbols
 export default (
   <Slide
     transition={["fade"]}
     bgImage={images.morning1.replace("./", "")}
-    bgDarken={0.5}
+    bgDarken={0.3}
   >
     <Heading
-      size={4}
-      bgColor="primary"
+      size={3}
+      bgColor="background"
       textColor="secondary"
     >Reuse help solve issues</Heading>
     <Appear fid="1">

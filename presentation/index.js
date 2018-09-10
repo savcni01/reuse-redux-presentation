@@ -3,12 +3,14 @@ import { Deck, Slide } from "spectacle";
 import markdown2html from "./utils/markdown2html";
 // import createTheme from "spectacle/lib/themes/default/";
 import createTheme from "spectacle-theme-nova";
+// import createTheme from "spectacle-theme-anker";
+// import { theme } from "spectacle-theme-solarized-dark";
 
 require("normalize.css");
 require("spectacle/lib/themes/default/prism.light");
 require("./prism-tomorrow.css");
 
-const theme = createTheme();
+const theme = createTheme("nova");
 
 // const theme = createTheme({
 //   primary: "white",
@@ -21,7 +23,7 @@ const theme = createTheme();
 // });
 
 const slidesImports = [
-  import("./slides/_000-a"),
+  // import("./slides/_000-a"),
   import("./slides/_000-intro"),
   import("./slides/_010-nik"),
   import("./slides/_015-anons"),
@@ -73,7 +75,8 @@ const slidesImports = [
 
 try {
   // noinspection JSUnresolvedVariable
-  theme.screen.components.heading.h4.color = "gray";
+  theme.screen.global.body.fontSize = "2em";
+  // theme.screen.components.heading.h4.color = "gray";
   // theme.screen.components.heading.h3.color = "gray";
 } catch (err) {
   // eslint-disable-next-line
@@ -104,7 +107,7 @@ export default class Presentation extends React.Component {
     const { slides } = this.state;
     return (
       <Deck
-        progress={"bar"}
+        progress={"pacman"}
         transitionDuration={500}
         theme={theme}
       >
