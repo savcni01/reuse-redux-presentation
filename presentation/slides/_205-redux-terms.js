@@ -16,7 +16,7 @@ export const notes = `
 `;
 
 export const markdown = `
-### Redux Basics
+## Redux Basics
 * Store: holds application State
 * Actions: object, describe changes to State 
 * Reducers: function defined how to transform State

@@ -22,12 +22,11 @@ export default (
   <Slide
     transition={["fade"]}
     bgImage={images.breakfast1.replace("./", "")}
-    bgDarken={0.5}
+    bgDarken={0.3}
   >
     <Heading
-      size={4}
-      bgColor="primary"
-      textColor="secondary"
+      size={3}
+      bgColor="background"
     >Reuse with changes</Heading>
     <Appear fid="1">
       <Image src={images.breakfast2.replace("./", "")}/>

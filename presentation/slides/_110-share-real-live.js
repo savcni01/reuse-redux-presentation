@@ -13,9 +13,7 @@ export const notes = `
 `;
 
 export const markdown = `
-
 ## Reuse in Real Life
-
 `;
 
 export default (

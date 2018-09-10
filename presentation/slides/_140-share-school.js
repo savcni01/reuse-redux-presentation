@@ -19,12 +19,12 @@ export default (
   <Slide
     transition={["fade"]}
     bgImage={images.school1.replace("./", "")}
-    bgDarken={0.5}
+    bgDarken={0.2}
+    height={"100% !important"}
   >
     <Heading
-      size={4}
-      bgColor="primary"
-      textColor="secondary"
+      size={3}
+      bgColor="background"
     >Content can be different</Heading>
     <Appear fid="1">
       <Image src={images.school2.replace("./", "")}/>

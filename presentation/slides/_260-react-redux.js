@@ -1,9 +1,5 @@
 import React from "react";
-import { Slide, Markdown } from "spectacle";
-
-const images = {
-  reduxFlow: require("../../assets/react-todo-app-with-provider.svg")
-};
+import { Heading, Image, Slide } from "spectacle";
 
 export const notes = `
 * Kaha efshar laarot eih Provider oved al diagram
@@ -13,19 +9,21 @@ export const notes = `
 * Ve barur im esh be aplikaciot ammitiyot yoter ramot shel hierarhiya, ze yahol liot mamash le noah
 * Ze lyo noah le-etsirat app (arbe bolireplate code)
 * Ve ahi hasuv ze lyo noah le-tahzuka. 
+
 * Kol shinui katan doresh arbe shinum messaviv.
-
-_TODO:_
-* change image
 `;
 
-export const markdown = `
-#### React-Redux Provider
-![Redux Store Flow](${images.reduxFlow.replace("./", "")})
-`;
+const img = require("../../assets/react-todo-app-with-provider.svg");
 
+// noinspection JSUnusedGlobalSymbols
 export default (
   <Slide transition={["fade"]}>
-    <Markdown>{markdown}</Markdown>
+    <Heading size={5}>React-Redux Provider</Heading>
+    <Image
+      bgColor={"white"}
+      // width={"760px"}
+      height={"580px"}
+      src={img.replace("./", "")}
+    />
   </Slide>
 );

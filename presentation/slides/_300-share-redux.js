@@ -24,13 +24,10 @@ le ahad me a tolkim a kodmim shel Big Web Theory Meetaps.
 biglal she Store be Redux ze "god" object, 
 ve kol Container ze sug shel singleton,
 ve biglal boilerplate shel Redux.
-
-_TODO:_
-* link to Vlad's module
 `;
 
 export const markdown = `
-### Levels of reusing
+## Levels of reusing
 
 * Presentational Components
 * Sub Modules (Widgets)

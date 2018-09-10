@@ -54,7 +54,7 @@ class Counter extends React.Component {
   };
 
   render() {
-    return (<div>
+    return (<div className="counter-example">
       <h2>{this.props.count}</h2>
       <fieldset>
         <button onClick={this.handlePlus}>

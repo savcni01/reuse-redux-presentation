@@ -1,5 +1,5 @@
 import React from "react";
-import { Slide, Markdown } from "spectacle";
+import { Heading, Image, Slide } from "spectacle";
 
 export const notes = `
 * Po anahnu roim Basic Redux Flow diagram
@@ -9,20 +9,18 @@ export const notes = `
 * Store react on Action
 * Ve osse reduce shel State: clomar al basis shel' action ve state a-nohehi hozer State a-hadash
 * View merundar shuve' al basis state a-hadash
-
-_TODO:_
-* change image
 `;
 
 const img = require("../../assets/redux-flow.gif");
 
-export const markdown = `
-#### Basic Redux Flow
-![Redux Flow](${img.replace("./", "")})
-`;
-
+// noinspection JSUnusedGlobalSymbols
 export default (
   <Slide transition={["fade"]}>
-    <Markdown>{markdown}</Markdown>
+    <Heading size={5}>Basic Redux Flow</Heading>
+    <Image
+      bgColor={"white"}
+      height={"580px"}
+      src={img.replace("./", "")}
+    />
   </Slide>
 );

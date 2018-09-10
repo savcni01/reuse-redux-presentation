@@ -1,9 +1,5 @@
 import React from "react";
-import { Slide, Markdown } from "spectacle";
-
-const images = {
-  reduxFlow: require("../../assets/react-redux-final-connect.svg")
-};
+import { Heading, Image, Slide } from "spectacle";
 
 export const notes = `
 * Helek sheni shel React-Redux ze connect
@@ -15,20 +11,20 @@ export const notes = `
 * mapDispatchToProps meafsher leavir dispatch action funktsiot kmo props le TodoItem
 * ve be-toh TodoItem, be-toh event handlers shel TodoItem osim dispatch le Actions a-elu 
 * Kmo she omarti kama paamim funktsiya connect mahzira komponenta hadasha she anahnu korim 
+
 * ConnectedComponent or SmartComponent or ReduxContainer. 
-
-_TODO:_
-* change image
-* Presentations vs Container
 `;
 
-export const markdown = `
-#### React-Redux Connect
-![React Redux Connect](${images.reduxFlow.replace("./", "")})
-`;
+const img = require("../../assets/react-redux-final-connect.svg");
 
+// noinspection JSUnusedGlobalSymbols
 export default (
   <Slide transition={["fade"]}>
-    <Markdown>{markdown}</Markdown>
+    <Heading size={5}>React-Redux Connect</Heading>
+    <Image
+      bgColor={"white"}
+      height={"580px"}
+      src={img.replace("./", "")}
+    />
   </Slide>
 );

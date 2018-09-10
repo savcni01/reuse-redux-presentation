@@ -3,12 +3,11 @@ import { Deck, Slide } from "spectacle";
 import markdown2html from "./utils/markdown2html";
 // import createTheme from "spectacle/lib/themes/default/";
 import createTheme from "spectacle-theme-nova";
-// import createTheme from "spectacle-theme-anker";
-// import { theme } from "spectacle-theme-solarized-dark";
 
 require("normalize.css");
 require("spectacle/lib/themes/default/prism.light");
 require("./prism-tomorrow.css");
+require("./live/counter.css");
 
 const theme = createTheme("nova");
 
@@ -23,11 +22,12 @@ const theme = createTheme("nova");
 // });
 
 const slidesImports = [
-  import("./slides/_000-a"),
+  // import("./slides/_000-a"),
   import("./slides/_000-intro"),
   import("./slides/_010-nik"),
   import("./slides/_015-anons"),
   import("./slides/_020-screen-nmc"),
+  import("./slides/_025-screen-nmc"),
   import("./slides/_030-screen-nmc"),
   import("./slides/_040-screen-nmc"),
   import("./slides/_050-screen-nmc"),
@@ -73,14 +73,19 @@ const slidesImports = [
   import("./slides/_990-final")
 ];
 
-// try {
-//   // noinspection JSUnresolvedVariable
-//   theme.screen.global.body.fontSize = "2em";
-//   // theme.screen.components.heading.h4.color = "gray";
-//   // theme.screen.components.heading.h3.color = "gray";
-// } catch (err) {
-//   // eslint-disable-next-line
-// }
+try {
+  // noinspection JSUnresolvedVariable
+  theme.screen.global.body.fontSize = "2em";
+  theme.screen.components.heading.h5 = {
+    color: theme.screen.components.heading.h2.color,
+    margin: "0 auto"
+  };
+  // eslint-disable-next-line no-console
+  console.log("theme: ", theme.screen);
+  // theme.screen.components.heading.h3.color = "gray";
+} catch (err) {
+  // eslint-disable-next-line
+}
 
 export default class Presentation extends React.Component {
   constructor(props) {

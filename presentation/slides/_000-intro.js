@@ -5,17 +5,15 @@ export const notes = `
 * Shalom le kulyam
 * Oni mekave she nehenetem ad ahshav me a meetup shelyanu
 * Ve nekave she nehenu gam me a talk sheli:
-* React Redux Island
-* - a way to reuse Redux
+* React Redux Island - a way to reuse Redux
 
 _KNOWN ISSUES:_
-* style: fonts, color, transitions
 * change images (one style, one size)
-* setup code examples
+* Presentational Component vs Container
 `;
 
 export const markdown = `
-## React Redux Island
+# React Redux Island
 #### - a way to reuse Redux
 `;
 

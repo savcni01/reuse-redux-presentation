@@ -18,8 +18,8 @@ _TODO:__
 `;
 
 export const markdown = `
-#### Nik Savchenko,
-##### Front End Developer at Nielsen
+##### Nik Savchenko,
+#### Front End Developer at Nielsen
 
 ----
 

@@ -15,7 +15,7 @@ export const notes = `
 `;
 
 export const markdown = `
-### Redux Reuse
+## Why, what, how?
 
 * Big App need share/reuse code
 * DRY: Don't Repeat Yourself

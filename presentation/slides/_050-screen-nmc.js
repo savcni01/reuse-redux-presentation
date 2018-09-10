@@ -15,7 +15,8 @@ export default (
   <Slide
     transition={["fade"]}
     bgImage={bg.replace("./", "")}
-    bgDarken={0}
+    bgSize="contain"
+    bgRepeat="no-repeat"
   />
 );
 

@@ -11,10 +11,11 @@ export const notes = `
 `;
 
 export const markdown = `
-### React Redux Integration
+## React Redux Integration
+
 * React-Redux lib is React binding for Redux
-* Provider - make Redux state available to connect to components
-* connect - connects React component to a Redux store 
+* Provider - make Redux Store available to connect to components
+* connect - connects React Component to a Redux Store 
 * connect - is HOC, return new Connected Component
 `;
 

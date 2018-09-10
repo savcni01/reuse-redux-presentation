@@ -25,10 +25,11 @@ export default (
     <Heading
       size={3}
       bgColor="background"
-      textColor="secondary"
     >Reuse help solve issues</Heading>
     <Appear fid="1">
-      <Image src={images.morning2.replace("./", "")}/>
+      <Image
+        src={images.morning2.replace("./", "")}
+      />
     </Appear>
   </Slide>
 );

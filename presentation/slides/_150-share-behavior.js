@@ -33,8 +33,8 @@ const images = {
 };
 
 export default (
-  <Slide transition={["fade"]}>
-    <Heading size={5}>Behavior Reuse</Heading>
+  <Slide transition={["fade"]} height={"100%"}>
+    <Heading size={2}>Behavior Reuse</Heading>
     <Layout>
       <Fill>
         <Appear fid="1">

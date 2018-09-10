@@ -1,0 +1,27 @@
+
+.counter-example {
+    height: 100%;
+    margin: 2rem;
+    margin: 3rem auto;
+}
+
+.counter-example h2 {
+    font-family: georgia;
+    margin: 0 auto;
+    color: lightblue;
+    font-size: 7rem;
+}
+
+.counter-example fieldset {
+    border: none;
+    margin-top: -3rem;
+}
+
+.counter-example button {
+    margin: 0 8rem;
+    border: 2px solid lightblue;
+    background: transparent;
+    color: lightblue;
+    width: 4rem;
+    height: 4rem;
+}
