@@ -6,7 +6,7 @@ export const notes = `
 `;
 
 export const markdown = `
-#### React Redux Island
+## React Redux Island
 
 * islandedConnect: State slice + Isolate Action
 * isolateReducer: Isolate Reducers + Unisolate Action

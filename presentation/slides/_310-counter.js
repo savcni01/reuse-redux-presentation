@@ -14,7 +14,7 @@ export const notes = `
 
 export default (
   <Slide transition={["fade"]}>
-    <Heading size={5}>Redux Counter Example</Heading>
+    <Heading size={4}>Redux Counter Example</Heading>
     <CounterApp/>
   </Slide>
 );

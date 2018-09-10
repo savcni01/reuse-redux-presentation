@@ -78,7 +78,7 @@ try {
   theme.screen.global.body.fontSize = "2em";
   theme.screen.components.heading.h5 = {
     color: theme.screen.components.heading.h2.color,
-    margin: "0 auto"
+    margin: "0 auto 2rem"
   };
   // eslint-disable-next-line no-console
   console.log("theme: ", theme.screen);

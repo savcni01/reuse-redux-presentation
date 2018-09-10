@@ -18,7 +18,7 @@ Crihim lehtov kod dome shuv ve shuv.
 `;
 
 export const markdown = `
-#### Issue solved! DRY? 
+## Issue solved! DRY? 
 
 * Very custom solutions
 * Boilerplate code

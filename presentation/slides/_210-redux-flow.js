@@ -19,7 +19,7 @@ export default (
     <Heading size={5}>Basic Redux Flow</Heading>
     <Image
       bgColor={"white"}
-      height={"580px"}
+      height={"560px"}
       src={img.replace("./", "")}
     />
   </Slide>

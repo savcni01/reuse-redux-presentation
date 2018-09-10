@@ -35,9 +35,8 @@ export default (
     bgDarken={0}
   >
     <Heading
-      size={4}
-      bgColor="primary"
-      textColor="secondary"
+      size={2}
+      bgColor="background"
     >React Redux Island</Heading>
   </Slide>
 );

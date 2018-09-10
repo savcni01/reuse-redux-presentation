@@ -23,7 +23,7 @@ export default (
     <Heading size={5}>React-Redux Connect</Heading>
     <Image
       bgColor={"white"}
-      height={"580px"}
+      height={"560px"}
       src={img.replace("./", "")}
     />
   </Slide>

@@ -23,7 +23,7 @@ bishvil lyo laaso at ze be col' Container.
 `;
 
 export const markdown = `
-#### Our Ideas 
+## Summary
 
 * Specify subset/slice of store at Container
 * Isolate Actions: use prefix from JSX

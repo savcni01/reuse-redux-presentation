@@ -20,7 +20,7 @@ export default (
     <Image
       bgColor={"white"}
       // width={"760px"}
-      height={"580px"}
+      height={"560px"}
       src={img.replace("./", "")}
     />
   </Slide>
