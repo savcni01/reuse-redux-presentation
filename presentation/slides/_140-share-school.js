@@ -1,20 +1,20 @@
 import React from "react";
 import { Appear, Heading, Image, Slide } from "spectacle";
 
+export const notes = `
+* Od dugma.. Meshanim le rak style, ceva or godel...
+
+* Ah gam tohen shel Reusing Components. 
+
+* Ve shuv ze oved oto davar be tihnut (coding).
+`;
+
 const images = {
   school1: require("../../assets/school-1.jpg"),
   school2: require("../../assets/school-2.jpg")
 };
 
-export const notes = `
-* Od dugma..
-* Lefamim anahnu tsrihim leshanot le rak style...
-* Aval gam Content shel reusing komponentot. 
-* Hine a dugma shel Reuse ka ze:
-* Osim reuse ve shininu le rak tseva, aval gam kontent.
-* Ve otam dvarim anahnu tsrihim gam be koding.
-`;
-
+// noinspection JSUnusedGlobalSymbols
 export default (
   <Slide
     transition={["fade"]}

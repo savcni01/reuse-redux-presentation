@@ -9,20 +9,19 @@ import {
 } from "spectacle";
 
 export const notes = `
-* Lefamim anahanu tsrihim laasot Reuse lyo rak 
-* Le Nirut (klomar UI) shel komponenta
-* O le kontent shel komponenta
-* Aval gam hitnagut (behaviour)
-* Bo nagid a-gdola olehet le konservatarion, menagenet piano
-* A ktana be ota shana olehet le Recud Salonim
+* Nahon u-kidai lehishtamesh be-Reuse lyo rak nirut or content (klomar UI)
+ah gam le hitnaagut (behaviour).
+
+* A-shana a-rishona a-gdola menagenet ba-psanter
+A-ktana rokedet Ricudim Salonim
+
+* Be shana a-baa 
+
 * Ve be od shana, osim reuse... 
 * Ve bli eoter me dai koah nosefet me a-orim:
 * Shhnehen gam minagnim piano be konservatorion,
 * Ve gam rokdim Rikudim Salonim.
 * Be koding anahnu gam tsrihim reuse behaviour ve/o business logic.
-
-_TODO:_
-* change img to video
 `;
 
 const images = {

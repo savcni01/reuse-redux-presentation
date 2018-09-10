@@ -2,8 +2,9 @@ import React from "react";
 import { Slide } from "spectacle";
 
 export const notes = `
-* Eih she atem roim,
-* Esh arbe eizorim she hem nirim oto davar or dome meod be-dapim shonim.
+* Eih she atem roim...
+
+* Esh arbe eizorim she nirim zehim or kimat, be-dapim shonim.
 `;
 
 const bg = require("../../assets/nmc2.png");

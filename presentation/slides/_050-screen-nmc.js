@@ -2,11 +2,13 @@ import React from "react";
 import { Slide } from "spectacle";
 
 export const notes = `
-* Ve kanire anahnu nirtse lassot shimush hozer shel ezorim a-elyu.
-* Anahnu le rotsim laasot otam komponentot ve modulim kama paaim.
-* Ve od eoter hashuv anahnu le rotsim lehitakzek (leshanot) otam komponentot kama paamim.
-* Barur she lakahati NMC rak ke dugma.
-* Ve kimat al kol aplikacia aheret efshar leagid otam dvarim me bhinat a code reuse.
+* Barur she nirce levace shimush hozer shel ezorim a-elyu.
+
+* U-barur she le racui lefateah ve leatic otam rahivim (Components, Modules) kama paaim.
+
+* Ve od eoter hashuv, anahnu le meunyanim letahzek (leshanot) otam rahivim be kama mekomot.
+
+* Ereti NMC rak ke-dugma. Al kol aplikacia aheret efshar legalot otor davar, me bhinat a-Code Reuse.
 `;
 
 const bg = require("../../assets/nmc4.png");

@@ -2,12 +2,13 @@ import React from "react";
 import { Appear, Heading, Image, Slide } from "spectacle";
 
 export const notes = `
-* Nagid ata melamed ha bat a-rishona eih laasot itargenut boker.
-* Ve akol oved mitsuan ad she bat a ktanta gam mathila laasot at ze.
-* Ve hen tsrihot laasot ze be oto zman, hen mathilim ledaber, lesak
-* Hen mathilim letonot mi olehet rishona... ve hulei.
-* Ve ze le pashut, ze mamsh issue.
-* Az Ata ose Reuse... ve op: issue solved! 
+* Itargenut shel a-boker shel bat a-gdolya.
+Akol' oved kmo shaon shvecari.
+
+* Ad le rega sha ahota a-ktana baa.
+Vikuhim, rivim, ibud shel a-zman.
+
+* Eih nitan liftor?.. Reuse - bahaya niftera.
 `;
 
 const images = {

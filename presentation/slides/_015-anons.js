@@ -2,23 +2,22 @@ import React from "react";
 import { Slide, Markdown } from "spectacle";
 
 export const notes = `
-* Shimush hozer shel code
+* Kama milim be-ma nitmaked ayom
 
-* Kama milim al ma anuahnu nidaber ayom
+* Nathil mi dugmaout, eihen nitan lirot mataj ve-eih mishtamshim ba-Code Reuse.
 
-* Nathil mi dugmaout she mahishot lama ve eih anahnu osim Code Reuse
+* Le-ahar mi-kah negale eih meshtamshim be-Code Reuse be applikaciot React-Redux,
+ele challenges olim, ve-eih nitan liftor otam.
 
-* Eih anahnu yaholim laasot ze be applikaciot React-Redux, eizo challenges anahnu crihim liftor 
+* Kidej leahvin at-ze... nedaber be-kcara al React-Redux Basics
 
-* Beshvil leahvin ze... kcat nedaber al React-Redux Basics
+* Be-emsheh Ninase Naive Approach (klomar dereh pshuta) le-Code Reuse be-Redux
 
-* Ninase Naive (Straight Forward) Approach le-Code Reuse 
+* U-ahar kah ninease be-yahad limco at a-dereh tova ioter, gmisha u-kalya le-Code Reuse
 
-* Ve ahar kah ninease be yahad limtso dereh yoter tova, gmisha ve kalya le-Code Reuse
+* Be sof nedaber al React-Redux-Island - sifria she anahnu pitahnu po, be-Nielsen
 
-* Be sof nedaber al React Redux Island - sifriya she anahnu katavnu po, be-Nielsen
-
-* Ve she ozeret liftor code reuse chanlengim ve limitim shel React-Redux arkitectura
+* She be ezrata shimush hozer ba-kod, be-platforma-React-Redux, ofeh liout kalil be ioter
 `;
 
 export const markdown = `

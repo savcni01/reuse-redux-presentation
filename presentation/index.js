@@ -67,6 +67,7 @@ const slidesImports = [
   import("./slides/_505-island-start"),
   import("./slides/_510-counters-island-code"),
   import("./slides/_520-counters-island"),
+  import("./slides/_530-code-compare"),
   import("./slides/_540-island-summary"),
   // import("./slides/420-redux-island-internals"),
   // import("./slides/430-redux-island-code"),

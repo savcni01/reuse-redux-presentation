@@ -2,14 +2,12 @@ import React from "react";
 import { Slide, Markdown } from "spectacle";
 
 export const notes = `
-* Beshvil lassot nose shel Reuse od yoter barur,
-* Oni rotse laarot kama dugmaot me a-haim amiti (lyo koding).
-* Ulay kama me kem samtem lev, 
-* She be slide efo oni dibarti al atsmi,
-* Aya shura: nasui plus shtaim (+2)
-* Osafti ota le rak biglal she ze hamud ve mosive ishiyout.
-* Aval gam biglal she be rega she esh lah shnei banot 10 ve 7:
-* Ata mevin tov meod eih laasot Reuse, ma ze noten leha, eih ze ozer ve esh leha tonnot shel dugmaot.
+* Kdei lehavi nose shel' Reuse le-barur be-ioter, ismah laarot kama dugmaot me a-haim amitim (lyo koding).
+
+* Ulay mishu sam lev be shkafim a-rishomin ciyanti nasui+2.
+
+* Be rega she esh lahem stej banot bnot 7 ve-10 - mathilim leavin tov meod eaih lehishtames ba-Reuse
+ma ze noten leha, be ma ze ozer, ve esh leha tonnot shel dugmaot
 `;
 
 export const markdown = `

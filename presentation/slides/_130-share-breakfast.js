@@ -7,14 +7,13 @@ const images = {
 };
 
 export const notes = `
-* Od dugma...
-* Oni, kmo aba tov, me rega she gdola olha le gan, mahin aruhat boker beshvila.
-* Ve be rega she gam ktana olha le gan...
-* Oni betah osse Reuse... 
-* Ma she ovad le ahad, laavod gam le shneihen.
-* Simu leve she lefamim anahnu tsrihim laasot adaptatsiot (parametrize) Reuse.
-* Leshanot tsevam, godel, ulay comositsiya shel sub elementim.
-* Anahnu roim ze po, be dugma, ve anahnu tsrihim otam dvarim be coding.
+* Od dugma... Kmo aba tov, tamid aiti ahrai al aruhat boker le-gdola.
+
+* U kmo methanet (tov) ishtamshti be-Reuse ba-ahanat aruhat boker gam le-ktana.
+
+* Simu lev she lefamim be-shemush hozer nitan lishanot style: ceva, godel, ve hulej
+
+* Roim ze po, be dugma, ve be tehnut ze oved oto davar bidiuk.
 `;
 
 // noinspection JSUnusedGlobalSymbols

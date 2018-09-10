@@ -2,7 +2,8 @@ import React from "react";
 import { Slide } from "spectacle";
 
 export const notes = `
-* Bo nire kama screenshotim shel web applikacia shelanu:
+* Bou nire mispar screenshots shel' web applikacia shelanu.
+
 * Nilsen Marketing Cloud.
 `;
 
