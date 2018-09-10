@@ -2,6 +2,7 @@
 
 var path = require("path");
 var webpack = require("webpack");
+var UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 
 module.exports = {
   entry: [
@@ -19,11 +20,12 @@ module.exports = {
         "NODE_ENV": JSON.stringify("production")
       }
     }),
-    new webpack.optimize.UglifyJsPlugin({
-      compressor: {
-        warnings: false
-      }
-    })
+    new UglifyJsPlugin()
+    // new webpack.optimize.UglifyJsPlugin({
+    //   compressor: {
+    //     warnings: false
+    //   }
+    // })
   ],
   module: {
     loaders: [{

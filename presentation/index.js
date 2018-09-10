@@ -73,14 +73,14 @@ const slidesImports = [
   import("./slides/_990-final")
 ];
 
-try {
-  // noinspection JSUnresolvedVariable
-  theme.screen.global.body.fontSize = "2em";
-  // theme.screen.components.heading.h4.color = "gray";
-  // theme.screen.components.heading.h3.color = "gray";
-} catch (err) {
-  // eslint-disable-next-line
-}
+// try {
+//   // noinspection JSUnresolvedVariable
+//   theme.screen.global.body.fontSize = "2em";
+//   // theme.screen.components.heading.h4.color = "gray";
+//   // theme.screen.components.heading.h3.color = "gray";
+// } catch (err) {
+//   // eslint-disable-next-line
+// }
 
 export default class Presentation extends React.Component {
   constructor(props) {
