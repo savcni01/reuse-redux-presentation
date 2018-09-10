@@ -23,7 +23,7 @@ const theme = createTheme("nova");
 // });
 
 const slidesImports = [
-  // import("./slides/_000-a"),
+  import("./slides/_000-a"),
   import("./slides/_000-intro"),
   import("./slides/_010-nik"),
   import("./slides/_015-anons"),
