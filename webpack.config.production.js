@@ -40,6 +40,9 @@ module.exports = {
       test: /\.(png|jpg|gif)$/,
       loader: "url-loader?limit=8192"
     }, {
+      test: /\.(woff|woff2|ttf|eot)$/,
+      loader: "url-loader?limit=1"
+    }, {
       test: /\.svg$/,
       loader: "url-loader?limit=10000&mimetype=image/svg+xml"
     }]
