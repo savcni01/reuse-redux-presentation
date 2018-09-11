@@ -11,7 +11,7 @@ ma ze noten leha, be ma ze ozer, ve esh leha tonnot shel dugmaot
 `;
 
 export const markdown = `
-## Reuse in Real Life
+## Reusability in Real Life
 `;
 
 export default (

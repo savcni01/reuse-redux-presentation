@@ -30,7 +30,7 @@ export const markdown = `
 ## Solution Requirements
 
 * No/minor changes at Reusable Container creation process
-* No/minimal effort for use Reusable Containers
+* No/minimal effort to use Reusable Containers
 * Use with simple and complex Containers
 * Simple, friendly API
 * Redux stack independent  
