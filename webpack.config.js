@@ -39,6 +39,10 @@ module.exports = {
       loader: "url-loader?limit=10000&mimetype=image/svg+xml",
       include: path.join(__dirname, "assets")
     }, {
+      test: /\.mp4$/,
+      loader: "url-loader?mimetype=video/mp4",
+      include: path.join(__dirname, "assets")
+    }, {
       test: /\.png$/,
       loader: "url-loader?mimetype=image/png",
       include: path.join(__dirname, "assets")

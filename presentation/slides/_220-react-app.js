@@ -21,7 +21,8 @@ anahnu meshtamshim state hoising or state lifting
 * Ve afuh Lifting shel' eventim me eladim le hOrim
 `;
 
-const img = require("../../assets/react-todo-app.svg");
+// const img = require("../../assets/react-todo-app.svg");
+const img = require("../../assets/todo-react-app.png");
 
 // noinspection JSUnusedGlobalSymbols
 export default (

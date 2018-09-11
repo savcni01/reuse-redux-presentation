@@ -11,7 +11,8 @@ export const notes = `
 * Ve al basis State nohahi ve Action - maric reduce function ve mahzir state hadash 
 `;
 
-const img = require("../../assets/redux-flow-store.svg");
+// const img = require("../../assets/redux-flow-store.svg");
+const img = require("../../assets/redux-store.png");
 
 // noinspection JSUnusedGlobalSymbols
 export default (

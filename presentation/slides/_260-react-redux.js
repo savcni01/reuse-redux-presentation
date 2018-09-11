@@ -13,7 +13,8 @@ export const notes = `
 * Kol shinui katan doresh arbe shinum messaviv.
 `;
 
-const img = require("../../assets/react-todo-app-with-provider.svg");
+// const img = require("../../assets/react-todo-app-with-provider.svg");
+const img = require("../../assets/todo-app-provider.png");
 
 // noinspection JSUnusedGlobalSymbols
 export default (

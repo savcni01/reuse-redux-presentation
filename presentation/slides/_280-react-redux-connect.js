@@ -15,7 +15,8 @@ export const notes = `
 * ConnectedComponent or SmartComponent or ReduxContainer. 
 `;
 
-const img = require("../../assets/react-redux-final-connect.svg");
+// const img = require("../../assets/react-redux-final-connect.svg");
+const img = require("../../assets/react-redux-todo-app.png");
 
 // noinspection JSUnusedGlobalSymbols
 export default (

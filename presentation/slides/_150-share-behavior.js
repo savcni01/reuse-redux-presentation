@@ -24,35 +24,43 @@ A-ktana rokedet Ricudim Salonim
 * Be koding anahnu gam tsrihim reuse behaviour ve/o business logic.
 `;
 
-const images = {
-  nikaPiano: require("../../assets/nika-piano.png"),
-  vikaPiano: require("../../assets/nika-dance.jpg"),
-  nikaDance: require("../../assets/vika-piano.png"),
-  vikaDance: require("../../assets/vika-dance.jpg")
-};
+const nikaPiano = require("../../assets/nika-piano.mp4");
+const nikaDance = require("../../assets/nika-dance.mp4");
+const vikaPiano = require("../../assets/vika-piano.mp4");
+const vikaDance = require("../../assets/vika-dance.mp4");
 
 export default (
   <Slide transition={["fade"]} height={"100%"}>
-    <Heading size={2}>Behavior Reuse</Heading>
+    <Heading size={5}>Behavior Reuse</Heading>
     <Layout>
       <Fill>
         <Appear fid="1">
-          <Image src={images.nikaPiano.replace("./", "")}/>
+          <video height="250px" autoPlay loop muted>
+            <source src={nikaPiano} type="video/mp4" />
+          </video>
         </Appear>
       </Fill>
       <Fill>
         <Appear fid="2">
-          <Image src={images.vikaDance.replace("./", "")}/>
+          <video height="250px" autoPlay loop muted>
+            <source src={vikaDance} type="video/mp4" />
+          </video>
         </Appear>
       </Fill>
+    </Layout>
+    <Layout>
       <Fill>
         <Appear fid="3">
-          <Image src={images.nikaDance.replace("./", "")}/>
+          <video height="250px" autoPlay loop muted>
+            <source src={nikaDance} type="video/mp4" />
+          </video>
         </Appear>
       </Fill>
       <Fill>
         <Appear fid="4">
-          <Image src={images.vikaPiano.replace("./", "")}/>
+          <video height="250px" autoPlay loop muted>
+            <source src={vikaPiano} type="video/mp4" />
+          </video>
         </Appear>
       </Fill>
     </Layout>
