@@ -33,7 +33,11 @@ export default (
   >
     <Heading
       size={2}
-      bgColor="background"
+      style={{
+        color: "#fff",
+        "text-shadow": "3px 2px #000",
+        transform: "translate3d(0px, 0px, 0px)  scale(1) rotate(-17deg)"
+      }}
     >React Redux Island</Heading>
   </Slide>
 );
