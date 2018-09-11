@@ -24,12 +24,14 @@ export default (
     <Heading size={5}>Code diff</Heading>
     <Layout>
       <Fill>
+        <Heading margin="0 auto" size={6}>Duplication</Heading>
         <Image
           width={"150px"}
           src={img1.replace("./", "")}
         />
       </Fill>
       <Fill>
+        <Heading margin="0 auto" size={6}>Hand made</Heading>
         <Image
           width={"140px"}
           // height={"560px"}
@@ -37,6 +39,7 @@ export default (
         />
       </Fill>
       <Fill>
+        <Heading margin="0 auto" size={6}>Island</Heading>
         <Image
           width={"150px"}
           // height={"560px"}

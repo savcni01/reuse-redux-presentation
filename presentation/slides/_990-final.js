@@ -1,20 +1,38 @@
 import React from "react";
-import { Slide, Markdown } from "spectacle";
+import { Slide, Heading, Image } from "spectacle";
 
 export const notes = `
 Toda raba.
 
-Seelot?
+
+Link le page katan im reshimat linkim:
+
+Le React-Redux-Island Repository
+
+Le a-maceget
+
+Le Talk shel Vlad al Microfrontends she dibarti
+
+Ve le vdeo aharim shel The Big Web Theory
+
+Sheelot?
 `;
 
-export const markdown = `
-## Thank you
-#### Questions?
-`;
 
+const img = require("../../assets/qr.png");
+
+// noinspection JSUnusedGlobalSymbols
 export default (
   <Slide transition={["fade"]}>
-    <Markdown>{markdown}</Markdown>
+    <Heading size={2}>Thank you</Heading>
+    <Heading size={4}>All links at: https://savcni01.github.io/</Heading>
+    <Image
+      bgColor={"white"}
+      // width={"760px"}
+      height={"280px"}
+      src={img.replace("./", "")}
+    />
+    <Heading size={4} margin={"2em auto 0"}>Questions?</Heading>
   </Slide>
 );
 

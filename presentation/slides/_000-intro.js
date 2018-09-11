@@ -9,6 +9,12 @@ export const notes = `
 * U mekave she tehenu gam me a talk sheli.
 
 * React Redux Island - a way to reuse Redux
+
+__TODO__
+* add logo of Nielsen
+* add The Big Web Theory (Image, Slogan)
+* other examples from web-core-containers
+* change: - a way to reuse Redux
 `;
 
 export const markdown = `
