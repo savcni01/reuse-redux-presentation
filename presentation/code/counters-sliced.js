@@ -8,10 +8,10 @@ import { createStore } from "./utils";
 
 // SLICE STATE
 const INITIAL_STATE = {
-  top: { count: 1 },
+  top: { count: 17 },
   my: {
     custom: {
-      bottomCounter: { count: 5 }
+      bottomCounter: { count: 58 }
     }
   }
 };

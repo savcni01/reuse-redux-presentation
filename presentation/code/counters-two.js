@@ -6,7 +6,7 @@ import { createStore } from "./utils";
 
 // TRY TO ADD ONE MORE COUNTER
 const INITIAL_STATE = {
-  count: 0,
+  count: 42,
   "oneMoreCounter": {
     count: 0
   }

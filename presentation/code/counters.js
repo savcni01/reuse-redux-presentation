@@ -49,10 +49,10 @@ class Counter extends React.Component {
 //
 // ISLAND CONTAINER
 const initialState = {
-  top: { count: 3 },
+  top: { count: 33 },
   my: {
     custom: {
-      bottomCounter: { count: 6 }
+      bottomCounter: { count: 42 }
     }
   }
 };

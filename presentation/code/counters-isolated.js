@@ -7,10 +7,10 @@ import { createStore } from "./utils";
 
 // ISOLATE STATE
 const INITIAL_STATE = {
-  top: { count: 3 },
+  top: { count: 33 },
   my: {
     custom: {
-      bottomCounter: { count: 6 }
+      bottomCounter: { count: 46 }
     }
   }
 };

@@ -7,8 +7,8 @@ import { createStore } from "./utils";
 
 // TOP and BOTTOM COUNTERS - FIXED VERSION
 const INITIAL_STATE = {
-  top: { count: 0 },
-  bottom: { count: 0 }
+  top: { count: 57 },
+  bottom: { count: 23 }
 };
 
 // top reducer
