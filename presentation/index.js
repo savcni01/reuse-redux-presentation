@@ -47,6 +47,7 @@ const slidesImports = [
   import("./slides/_260-react-redux"),
   import("./slides/_270-react-redux-code"),
   import("./slides/_280-react-redux-connect"),
+  import("./slides/_285-smart-dumb"),
   import("./slides/_290-react-redux-connect-code"),
   import("./slides/_300-share-redux"),
   import("./slides/_310-counter"),

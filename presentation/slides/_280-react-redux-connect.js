@@ -20,6 +20,7 @@ ve be-toh Event Handlers , TodoItem yahol levace dispatch le-Action
 
 * Ve kah funkcia Connect mahzira at-Compmponent hadash:
 ConnectedComponent or SmartComponent or ReduxContainer
+leumat a Component pashut - she anahnu korim Presentional Compoentn ot UI Component or DumbComponent)
 `;
 
 // const img = require("../../assets/react-redux-final-connect.svg");

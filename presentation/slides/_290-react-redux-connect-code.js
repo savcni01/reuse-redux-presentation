@@ -2,7 +2,7 @@ import React from "react";
 import CodeSlide from "spectacle-code-slide";
 
 export const notes = `
-* Shuv mestaklim eih ze nira be-code
+* Hozrim le Connect, mestaklim eih ze nira be-code
 
 * Connect hu helek shel React-Redux kmo Provider
 

@@ -6,7 +6,7 @@ import { createStore } from "./utils";
 
 // SINGLE COUNTER APP EXAMPLE
 const INITIAL_STATE = {
-  count: 0
+  count: 42
 };
 
 // counter reducer
@@ -28,7 +28,7 @@ const reducer = function (state = INITIAL_STATE, action) {
 };
 
 // create store for Counter App
-const store = createStore(reducer, { count: 42 });
+const store = createStore(reducer);
 
 // Presentational Component
 class Counter extends React.Component {
