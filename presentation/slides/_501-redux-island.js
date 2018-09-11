@@ -22,7 +22,7 @@ U-icarnu kol' Workarounds be cura arbe nakia, gamisha, yeila u-kalya le shimush
 // A emet anahnu maamenim she React-Redux-Island arbe ioter yafe ve mashmai
 
 // const bg = require("../../assets/redux-island.jpg");
-const bg = require("../../assets/island-1.jpg");
+const bg = require("../../assets/island-2.jpg");
 
 // noinspection JSUnusedGlobalSymbols
 export default (

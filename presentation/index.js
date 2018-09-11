@@ -63,6 +63,8 @@ const slidesImports = [
   import("./slides/_460-counters-isolated"),
   import("./slides/_470-ideas"),
   import("./slides/_500-redux-island"),
+  import("./slides/_501-redux-island"),
+  import("./slides/_502-redux-island"),
   import("./slides/_503-island-parts"),
   import("./slides/_505-island-start"),
   import("./slides/_510-counters-island-code"),
