@@ -2,17 +2,24 @@ import React from "react";
 import { Heading, Image, Slide } from "spectacle";
 
 export const notes = `
-* Helek sheni shel React-Redux ze connect
-* Ve po anahnu yaholim lirot dugma eih connect oved
-* Shnei argumentim reshonim shel' connect ze funktsiot: 
-* mapStateToProps ve mapDispatchToProps 
-* mapStateToProps mekabelet State kmo paramter rishon, ve ownProps ke parametr sheni
-* Ve mahzir object im netunim me a-State, she ihie lemazeg (merged) le props shel TodoItem 
-* mapDispatchToProps meafsher leavir dispatch action funktsiot kmo props le TodoItem
-* ve be-toh TodoItem, be-toh event handlers shel TodoItem osim dispatch le Actions a-elu 
-* Kmo she omarti kama paamim funktsiya connect mahzira komponenta hadasha she anahnu korim 
+* Helek sheni shel React-Redux hu Connect
 
-* ConnectedComponent or SmartComponent or ReduxContainer. 
+* Ve po ba-diagrama, roim eih Connect oved
+
+* Amarnu she Connect ze funkcia 
+ve-sheni argumentim reshonim shel' Connect 
+ze gam funkciot: mapStateToProps ve-mapDispatchToProps 
+
+* funkcia mapStateToProps mekabelet at-State
+Ve mahzira at-a-Object im netunim me a-State
+she iuyvru le-TodoItem ke Props
+
+* funkcia mapDispatchToProps meafsheret leavir 
+ar-dispatch-Action funkciot ke Props le-TodoItem
+ve be-toh Event Handlers , TodoItem yahol levace dispatch le-Action
+
+* Ve kah funkcia Connect mahzira at-Compmponent hadash:
+ConnectedComponent or SmartComponent or ReduxContainer
 `;
 
 // const img = require("../../assets/react-redux-final-connect.svg");

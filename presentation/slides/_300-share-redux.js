@@ -2,27 +2,36 @@ import React from "react";
 import { Slide, Markdown } from "spectacle";
 
 export const notes = `
-* Ahshav khse dibarnu kvar al React-Redux basics: Store, Actions, Reducers, Containers ve Presentational Components
-* Anahnu yaholim laavor le Reuse be-React Redux Apps
-* Epshar leagid she esh kama ramot shel code reuse
-* Anahnu yaholim Reuse Presentational Components - ze day pashut ve straight forward
-* Archetectura shel' React atsma notenet efsharut laasot at ze.
-* Mi cad sheni, esh od efsharut... im applikacia dei gdol'a im separated Sub-Modules, 
-or le dugma im aplikacia meshtameshet MicroFrontends arketectura. 
-* Esh efsharut reuse Sub-Modules or eih she anahnu korim Widgets as Blackbox, 
-bli mamsh youdea eih ze nivne befnim, pashut integrate otam dereh API she hem notnim.
-* Po ani jahol' lishloah kulam mi she meonen otam nose shel':
-Shared React Perceptional Components Library or nose shel' Reusable Widgets 
-le ahad me a tolkim a kodmim shel Big Web Theory Meetaps.
-* Ze talk shel Vlad Misteskiy al "MicroFrontends" (ba sof shel' presenatcia ani iten link).
-* Lefamim reuse shel' Presentational Component ze le maspik
-* Ve reuse dereh Widget ze yoter mi day le-tsrahim shelanu.
+* Aharej she dibarnu al React-Redux basics: 
+Store, Actions, Reducers, Containers ve UI Components
 
-* Anahnu pa6ut rocim laasot reuse le-Redux Container 
-(klomar Actions, Reducers, stateToProps ve-dispatchToProps mapping, mivne 6el' Store)
-* Ve po mehakim lanu ma she nikra: limits ve-challenges: 
-biglal she Store be Redux ze "god" object, 
-ve kol Container ze sug shel singleton,
+* Ovrim le nose Code Reuse be-React-Redux
+
+* Esh kama ramot shel Code Reuse
+
+* Rashit nitan Reuse UI Compoents. Ze pashut, ze ugdar otomati be-React
+
+* Mi cad sheni, be mejda ve-applikacia dei gdol'a im Modulim nifradim or Mircrofrontend arhetectura,
+kaemet efsharut le-Reuse Modulim (or eih she anahnu korim le ze Widgetim) be tor BlackBox.
+Le lyo coreh laddat eih Widgetim bnuim befnim, anu meshalvim otam be amcaut API she hem osrim.
+
+* Le kol' mi-she mitan'en benosim:
+Shared UI Components or Shared Reusable Widgets
+Ani esamh leamlic al-ahad me a Tolkim a kodmim shel Big Web Theory Meetaps.
+
+* Ze talk shel Vlad Misteskiy al "MicroFrontends" 
+(ba sof shel' a-maceget iten at-a-link le video).
+
+* Lefamim reuse shel' UI Components ze le maspik le-tsrahim shelanu.
+Ve shimush ba-Widgetim ze le yail.
+
+* Ma she anahnu crihim ze Reuse shel Redux Container 
+Reuse code shel: Actions, Reducers, 
+stateToProps ve-dispatchToProps mapping, mivne shel' Store)
+
+* Kmo she neyemar codem be Reuse Redux Container kayamot mikbalot:
+biglal she Store be Redux hu "GOD" object, 
+ve kol' Container ze sug shel Singleton,
 ve biglal boilerplate shel Redux.
 `;
 

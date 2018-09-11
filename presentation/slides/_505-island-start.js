@@ -3,8 +3,9 @@ import { Heading, Slide } from "spectacle";
 import Terminal from "spectacle-terminal";
 
 export const notes = `
-* Bo nire eih anahnu yaholim laasot otam dvarim she osinu
-be dugma ahrona Isolate Counters im React Redux Island 
+* Ninase levace otam dvarim mi dugma ahrona be ezrat React Redux Island
+
+* npm install - dei pashut
 `;
 
 // noinspection JSUnusedGlobalSymbols

@@ -2,13 +2,16 @@ import React from "react";
 import CodeSlide from "spectacle-code-slide";
 
 export const notes = `
-* Bo nistakel al code shel' react app.
-* Lakahti ehad me a dugmaot mufersaot: applikatsiya TODO
-* Mathilim mi rendur shel komponenta TodoApp
-* Be toh TodoApp  esh komponentim Filters ve List
-* Komponenta List mekabelet netunim prop - list of Todos she anahnu shomrim be TodoApp Internal State
-* Be toh komponenta List anahnu iterate list ve meranderi kol me Todos Items 
-* Ve ze eih Todo Item nire (od paam hu mekabel me hOre (klomar TodoList), ke props netunim shel Todo.
+* Bo nistakel al code. Lakahti ehad me a dugmaot mufersaot: aplikacia TODO
+
+* Meranderim TodoApp Component le-root Container on page
+
+* Be toh TodoApp roim shnej Components: TodoFilters ve-TodoList
+* Component TodoList mekabelet reshima shel Todos ke Prop
+
+* Be toh TodoList anahnu Iterate reshima shel Todos ve meranderim kol ahad me Todo Item
+ 
+* Kaha nira TodoItem: mekabel me hore (TodoList) nitunim shel Todo ve-merander name, delete button.
 `;
 
 // noinspection JSUnusedGlobalSymbols

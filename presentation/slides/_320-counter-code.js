@@ -4,36 +4,31 @@ import CodeSlide from "spectacle-code-slide";
 export const notes = `
 * Nistakel le code shel Redux Counter App
 
-* Mathilim mi mivne shel State. Esh rakparameter ehad: count
+* Mathilim mi mivne shel State. Esh rak parameter ehad: count
 
-* Po meacrim Store, meshtamshim funkcia createStore im reducer 
-(nire oto yoter meuhar)
+* Kan meacrim Store, meshtamshim ba-funkcia createStore im reducer 
+(she oto nire meuhar ioter)
 
-* Ahashav bo nire React part 
-(bidiuk kmo osinu kshe dibarnu al React-Redux Basics)
-Roim po React Component meod pshut: 
-output shel counter, 
+* Bou naavor le React Component: 
+roim output shel Counter, 
 shnej kaftorim [+] [-] im click handlers
 
-* Mathilim React-Redux integracia 
-roim po CounterApp im Provider ve Store
-Kmo she atem roim Aplikacia meshtameshet Container 
-(lyo Presentational Component)
+* Meshalvim React ve-Redux:
+roim po CounterApp im Provider ve-Store
+Aplikacia meshtameshet ba-Container (lyo UI Component)
 
-* Ve po anahnu meacrim oto (CounterContainer): 
-osim connect shel' Counter Component le Store mekablim CounterContainer
+* Meacrim CounterContainer: mehabrim (im Connect) at-CounterComponent le-Store 
+mekablim CounterContainer
 
-* Po roim mapping shel state le-props shel' Presentational Counter Component
+* Medkadmim le-mapping shel' State le-Props shel' UI-Counter-Component
 
-* Ve po mapping dispatch shel' Actions (increment ve decrement) 
-le-props shel' oto Counter Component
+* Ve hine: mapping dispatch shel' Actions (increment ve decrement) 
+le-Trops shel' oto UI-Counter-Component
 
-* Ve kaha nire Reducer meod pa6ut 6elanu, hu yahol react le shnej Actions: 
-she rainu be mapsDispatchToProps
+* Ve kaha nira Reducer, she magiv le-shnej Actions: 
 COUNTER_INCREMENT Reducer mosive 1 le-count
 ve-COUNTER_DECREMENT Reducer morid 1 mi-count
-Simu lev Reduser mahzir Object/State hadash ve lyo mutate State a-codem
-
+Simu lev Reduser mahzir Object/State hadash ve lyo mishane (lyo Mutate) State a-codem
 `;
 
 // noinspection JSUnusedGlobalSymbols

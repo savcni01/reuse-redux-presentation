@@ -2,34 +2,35 @@ import React from "react";
 import CodeSlide from "spectacle-code-slide";
 
 export const notes = `
-* Kodem kol' bo nenase incapsulate State le Slices shonim
+* Kodem kol' bou nenase incapsulate State le-Slices shonim
 
-* Kmo tamid mathilim mi mivne shel State
-Osinu state afilu kcat yoter meurkav, bemcom bottom: {count}
-Bo nagid she Bottom Counter state be toh my.custom.bottomCounter
+* Kmo be paamim a kodmot, mathilim mi mivne shel State
+She a paam baniti meurkav youter, 
+bemcom bottom: {count} shomrim bottom-counter State be-toh: my.custom.bottomCounter
 
-* Meacrim Store im Combined reducer
+* Meacrim Store im CombinedReducer
 
-* Ve Reducer ze oto Reducer bli shum shihpul
+* Ve Reducer hu oto ahad le lyo shihpul (le top ve-le-bottom)
 
-* Be CunterApp mosifim CounterContainer paamaim, 
-aval mosifim props isolateId=top le Container rishon
-ve isolateId=bottom le Container sheni, 
-be nosaf le-Container sheni mosifim of prop ehad
-funkcia Slector, biglal 6e mevne 6el' State
-6el' Bottom Counter youter meurkevet
+* Be CunterApp mosifim CounterContainer paamaim. 
+Aval mosifim prop isolateId=top le Container rishon
+ve-Prop isolateId=bottom le Container sheni. 
 
-* Ein shimuim ve ecirat Container
+* Ve be-nosaf le-Container sheni mosifim od Prop ehad:
+funkcia Slector, biglal she mevne shel' State
+shel' Bottom Counter iouter meurkevet.
+
+* Ein shimuim be ecirat Container (ze oto Conatiner)
 
 * Aval be mapStateToProps mosifim kama dvarim hadasim:
 Mahzerim lyo state.count kmo be dugmaot a-kodmot
-Mahzerim slice.count ve slice ze mashe 
-anahnu mekabkim me funkcia selector.
-Im Selector le magdir, pahut bonim oto lefi konvenciua
-state[isolateId]
+Ah slice.count 
 
-* mapDispatchToProps ca rega bli 6inuim
+* Slice ze mashe anahnu mekabkim me funkcia selector.
 
+* Im Selector le mugdar, bonim oto lefi konvencia state[isolateId]
+
+* mapDispatchToProps ka rega bli shinuim
 `;
 
 export default (

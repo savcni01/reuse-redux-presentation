@@ -2,13 +2,13 @@ import React from "react";
 import { Heading, Image, Slide } from "spectacle";
 
 export const notes = `
-* Nahzor le shniya le Redux store
+* Nahzor le shniya le Redux Store
 
-* Ki ahsav anahnu tsrihim integrate React app im Redux Store
+* Ki ahsav anahnu crihim Integrate React app im Redux Store
 
-* Oni maskir she Redux Store mikabel Action (klomar teur shel event)
+* Oni maskir she Redux Store mikabel Action - teur shel event
 
-* Ve al basis State nohahi ve Action - maric reduce function ve mahzir state hadash 
+* Ve al basis State nohahi ve Action - maric Reduce Function u-mahzir State hadash 
 `;
 
 // const img = require("../../assets/redux-flow-store.svg");

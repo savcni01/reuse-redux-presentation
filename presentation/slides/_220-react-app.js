@@ -2,23 +2,24 @@ import React from "react";
 import { Heading, Image, Slide } from "spectacle";
 
 export const notes = `
-* Kmo she amarnu Redux oved mitsuyan im React kmo view library
+* Kmo she amarnu Redux oved mitsuyan im sifriat React kmo View Layer
 
 * Po anahnu roim diagrama shel' applikacia React
 
-* React noten livnot me helakim ktanim ve isolated (Component) complex UIs shel' app
+* React noten livnot me helakim ktanim ve nifradim (isolates) UI murkav (complex) shel applikacia.
 
-* Kshe anahnu mistamshim React App bli shum Statet= Management container (kmo Redux, Mobx or aher)
+* Kshe anahnu mistamshim React App bli shum State Management container (kmo Redux, Mobx or aher).
+State shel aplikacia mefutsal' (splited) bein Components.
 
-* State shel aplikacia splited (mefutsal') bein Components.
+* Ve im kama Components tsrihim leagiv le-otam shinuim shel' nitunim (State Share)
+meshtamshim be-State hoisting or State lifting 
+(clomar shomrim State meshutaf be-hOre a-meshutaf a-karov)
+[dugma al diagram]
 
-* Ve im kama komponentim tsrihim to reflect le shinuim shel otam nitunim (share state)
-anahnu meshtamshim state hoising or state lifting 
-(clomar shomrim state meshutaf be-hOre a-meshutaf ve ahi karov le componentim a-elu)
+* React noten efsharut lehavir netunim ve-funciot-Callback me a a-horim le yaladim ke-Props
 
-* React noten efsharut laavor netunim ve calback funciot me a horim le yaladi as props
-
-* Ve afuh Lifting shel' eventim me eladim le hOrim
+* U be-hazara laalot Eventim me eladim le hOrim
+[dugma al diagram]
 `;
 
 // const img = require("../../assets/react-todo-app.svg");

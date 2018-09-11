@@ -28,7 +28,7 @@ const reducer = function (state = INITIAL_STATE, action) {
 };
 
 // create store for Counter App
-const store = createStore(reducer);
+const store = createStore(reducer, { count: 42 });
 
 // Presentational Component
 class Counter extends React.Component {

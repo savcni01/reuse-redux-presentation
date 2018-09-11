@@ -2,7 +2,7 @@ import React from "react";
 import { Heading, Layout, Fill, Image, Slide } from "spectacle";
 
 export const notes = `
-* Po efshar lirot code listing shel shlosha petronot: 
+* Nitan lirotcode listing shel shlosha pitronot: 
 
 * Rishon - naive copy-past approach
 

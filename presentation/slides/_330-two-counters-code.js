@@ -3,15 +3,15 @@ import CodeSlide from "spectacle-code-slide";
 
 export const notes = `
 * Ahshav bo nenase leosif od CounterContainer le applikacia.
-Nenase naive (straight forward) approach
+Nathile be a dereh pshuta (Naive, straight forward approach).
 
 * Mathilim mi mivne shel State. Mosifim oneMoreCount.
 
 * Meacrim Store
 
-* Ve pa6ut mosifim le CounterApp one more Counter
+* Ve pashut mosifim od CounterContainer ehad le-CounterApp 
 
-* k6e-ze oto CounterContainer she rainu codem, bli shum shenuim.
+* Kshe ze oto CounterContainer she rainu codem, le lyo shinuj.
 `;
 
 export default (

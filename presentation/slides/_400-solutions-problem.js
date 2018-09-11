@@ -2,19 +2,20 @@ import React from "react";
 import { Slide, Markdown } from "spectacle";
 
 export const notes = `
-* Barur 6e kcat examti im 6ehpul' 6el' code
+* Akol' oved, ah pitraon le gamish ve optimali
+im shihpulim rabim shel code.
 
-* Ef6ar laasot refactoring, 
-leoci helec me a code le funkciot nefradot, 
-laasot code yoter pashut
+* Ma im nictareh leosif odd Counter? Od shihpulim shel code
 
-* Aval ma le naase, adain ihie arbe shel Boilerplate Code
+* Ve ma im nictareh leshanot Counter (le dugma leosif caftor Reset)?
+Nedvakesh shimuj be-mispar mekomot
 
-* Ve pitaron ihie le gamish, nagid im anahnie crihim leosif od Counter
-or leshanot counter (le dugma increment to 6time, or leosif reset button)
+* Ve ma im nictareh laavod im Container aher, lo Counter?
+Ka nire nictareh lihtov oto kod shuv ve-shuv.
 
-* Gam le kol' kah ef6ar lehistame6 ma 6e katavnu be6vil reuse component aher. 
-Crihim lehtov kod dome shuv ve shuv.
+* Barur she Ef6ar laasot refactoring, leoci helec me a code le funkciot nefradot, 
+lihtove code pashut ioter.
+Aval pitraon, adain le isapek gamishut ve-optimaliut
 `;
 
 export const markdown = `

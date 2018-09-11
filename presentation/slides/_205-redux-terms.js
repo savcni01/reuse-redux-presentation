@@ -3,16 +3,23 @@ import { Slide, Markdown } from "spectacle";
 
 export const notes = `
 * Nathil me Redux basics
-* Redux Docs site magdir Redux kmo: 
-* Predictable (tsafui) state container beshvli lenahel state shel' aplikaciya
-* Emtsa shel redux ze Store...
-* Store mahzik state, meafsher gisha le state, meafsher le state lehitatken be amcaut dispatch shel action
-* Esh shlosha core principles shel' Redux: 
-* Single source of trues: cal nitunim shel' app mahzikim/shomrim be-State (tree object) ehad
-* State is read only: ve cal shinuim mufilot al edei Actions 
-* State lehitatken rak be amcaut Pure Functions (Reducers)
-* Redux meafsher laavod im View librarim shonim, ve comuvan oved mitsuyan im React.
-* View layer rak merander UI al basis State, kmo she omrim UI ze funkciya mi state.
+
+* Atar shel Redux magdir sifriyat Redux kmo:
+Predictable State-Container le niul' State shel' aplikaciya
+
+* Basis shel Redux ze Store...
+* Store mahzik State, meafsher gisha le State,
+meafsher le state lehitatken be amcaut dispatch shel' Actions
+
+* Esh shlosha icronot shel' Redux: 
+* Single source of truth: kol' a-nitunim shel' aplikacia shmurim(metuhzakim) be-State ehad (tree object)
+* State is read only: ve-kol' a-shinuim mufalim al edei Actions 
+* State metatken rak be amcaut Pure Functions (Reducers)
+
+* Redux meafsher laavod im sifriyot UI/View shonot, 
+ve kamuvan oved mitsuyan im React.
+
+* View layer rak merander UI al basis State, kmo she omrim UI ze funkciya mi State.
 `;
 
 export const markdown = `

@@ -3,16 +3,14 @@ import { Slide, Heading } from "spectacle";
 import { TwoCountersIsolated } from "../live/counters-isolated";
 
 export const notes = `
-* Bo nivdok she akol oved kmo she racinu
+* Bdika she akol oved kmow she tehnanu
 
-* Bo nire am be debug log, roim she app ose dispach 
-Prefixed (isolated) Actions
-Ve isolatedReducers youdim leahavin im the action shelo
-az unisolate Action ve leoric oto
+* Niftah gam debug, roim she aplikacia dispach Prefixed (isolated) Actions
 
-* Girsa a zoti adain esh la lyo meat issues
+* Ve isolatedReducers mesugal leahavin a-im Action shayan elav.
+Ve az unisolate Action ve learic oto
 
-* Aval thze meod karov le ma she racinu
+* Be-Girsa a zot adain colelet kama migbalot, aval kvar mitkarevet le ma she racinu
 `;
 
 // noinspection JSUnusedGlobalSymbols

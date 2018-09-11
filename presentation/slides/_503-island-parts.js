@@ -2,7 +2,17 @@ import React from "react";
 import { Slide, Markdown } from "spectacle";
 
 export const notes = `
-* Bo naase sikum shel pitronot
+* React-Redux-Island mesapeck
+
+* islandConnect - HOC nosaf, wrapper al Connect shel React-Redux
+Mosif State Slicing ve-Action isolation
+
+* isolateReducer - HOF mosifa isolation le funkciot Reduce 
+
+* helper makeReducer - optional le shimush, efshrut laasot reducer al basis actionsMap function
+bli SWITCH CASE
+
+* ve kama Plugins for isolated middlewares (kmo isolateThank, isolateSage ve hulej
 `;
 
 export const markdown = `

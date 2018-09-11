@@ -2,16 +2,23 @@ import React from "react";
 import { Slide, Markdown } from "spectacle";
 
 export const notes = `
-* Sikum katan, ahary dugmaot...
-* Im esh lany aplikatsiya maspik gdola:
-* Anahnu ka nire nitstareh code reuse.
-* Anahnu rotsim lehishtamesh DRY princip.
-* Beshvil laasot pituah and takzuka shel aplikaciya yoter pshuta.
-* Esh efshrut laasot reuse le UI, Content Management, Behaviour, Business logic shel' komponentot.
-* Be Arhetektura shel React Redux aplikatsiyot esh la kol miney limitim
-* Ve beshvil lihikanes amok be reuse code chalangim
-* Oni rotse leagid kama milim al React Redux Basics 
-* Leaskir le mishe yodea or leasbir be ktana le mishe le makir otam
+* Sikum katan, ahary a-dugmaot...
+
+* Kshe medubar al-aplikacia maspic gdola,
+savir le aniah she nictareh Code Reuse.
+
+* Le shohahim al-DRY (...) princip.
+
+* She noten lyanu petuah ve tahzuka shel' alikacia kalim ioter. 
+
+* Kaemet efshrut laasot reuse le-UI, Content Management, Behaviour,
+Business logic shel' rahivim (Components).
+
+* Be-Arhetektura shel' React-Redux kayamot mikbalot misuyamot 
+
+* Kedei lehikanes le-toh a-inyanim - nidaber kama milim al React Redux Basics 
+
+* Leaskir le mishe kolet ve-leasbir be ktana le mishe le makir
 `;
 
 export const markdown = `

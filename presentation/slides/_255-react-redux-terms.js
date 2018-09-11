@@ -2,12 +2,17 @@ import React from "react";
 import { Slide, Markdown } from "spectacle";
 
 export const notes = `
-* Beshvil integrate React ve Redux meshtamshim React-Redux binding lib
-* Helek rishon shel React-Redux ze Provider.
-* Provider osse she Redux Store zamin le connect to komponentim React
-* Ve helek sheni shel' React-Redux ze funktsiya connect
-* connect - mamash mahaberet React component le State
-* connect - ze HOC, funktsia lyo osa shinuim be React Component, aval mahzira komponenta hadasha - Connected Component
+* Beshvil lehaber(integrate) React ve-Redux 
+meshtamshim ba-React-Redux binding library
+
+* Helek rishon shel React-Redux hu Provider.
+Provider meafsher le Redux-Store lihiot zamin le-Connect le-React Components
+
+* A-helek a-sheni shel' React-Redux hu funkcia CONNECT
+* connect - mahaber React component le-State
+* connect - le maase hu H-O-C, 
+* connect lyo mevace shinuim be React Component, 
+ah mahzir at-Component a-hadash - she nikra Connected Component (or Redux Container)
 `;
 
 export const markdown = `

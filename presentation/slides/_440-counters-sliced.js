@@ -4,17 +4,15 @@ import { TwoCountersSliced } from "../live/counters-sliced";
 
 
 export const notes = `
-* Roim po 6e 6nej Conters meshtamshim Statim shonim
-lamrot she meshtamsim otam mapStateToProps, mapDispatchToProps
+* Kan efshar lirot she Counters meshtamshim ba-nitunim sjonim (1 ve-5)
+lamrot she le shihpalnu at-mapStateToProps ve-mapDispatchToProps
 
-* Aval im anahnu nenase leahsnot ehad mi Counters,
-Nire 6e esh shimuim gam be TOP ve gam be-Bottom
+* Im anahnu meashanim ehad mi Counters, meshtane gam at a-sheni
 
-* Bo nistakel log, ve nire 6e oto Action catch paamaim,
-lamrot 6e anahnu osinu slise le State
-ze kore biglal 6e combined reducer maric Action le 6hnej slicim
+* Bou niftah debug, ve-nire she oto Action tofes paamaim,
+Ve combinedReducer maric Action le shhnej slicim
 
-* So anahnu crihim incapsulate gam Action-Reducer
+* She omer she hayavim Incapsulate gam Action ve-Reducer
 `;
 
 export default (

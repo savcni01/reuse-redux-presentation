@@ -2,10 +2,11 @@ import React from "react";
 import CodeSlide from "spectacle-code-slide";
 
 export const notes = `
-* Be kode ze nire kaha
-* Provider, kmo she amarnu, ze helek me sifriya react-redux
-* Provider mekabel store ke props ve mosiv Store be kontext shel TodoApp
-* Ve, kmo she amarnu osse Store zamin le connect to komponentim React.
+* Nistakel be-kod: Provider, kmo she amarnu, ze helek me sifriat React-Redux
+
+* Provider mekabel Store ke-Props ve-mosif Store be-Kontekst shel TodoApp
+
+* U-Store mathil lihot zamin le-Connect le-React-Components shel TodoApp.
 `;
 
 // noinspection JSUnusedGlobalSymbols

@@ -2,15 +2,25 @@ import React from "react";
 import CodeSlide from "spectacle-code-slide";
 
 export const notes = `
-* Shuv mestaklim eih ze nire be-code
-* Connect ze helek shel react-redux kmo Provider
-* Connect meatser TodoItemContainer al basis TodoItem Presentational Component
-* mapStateToProps al basis State and ownProps mahzir object - props for TodoItem
-* mapDispatchToProps maavir ke props le TodoItem funkcia destroyTodo (she ze dispatch Action: DESTROY_TODO)
-* Be toh TodoLis meshtamshim TodoItemContainer bemkom TodoItem
-* Ve leumat dugma kodemet, roim she le maaverim netunim shel todo ke props
-* ... ki TodoItemContainer yodea lekable todo nitunim mi State levad (rainu ze be mapStateToProps)
-* Ve Todo item ze oto Perceptional TodoItem - ein shinuim.
+* Shuv mestaklim eih ze nira be-code
+
+* Connect hu helek shel React-Redux kmo Provider
+
+* Connect meacer TodoItemContainer al basis TodoItem UI Component
+
+* mapStateToProps mekabel at-State ve-ownProps, 
+mahzir at-object - she hu be acmo Props le-TodoItem
+
+* be mapDispatchToProps maavirim funkcia destroyTodo ke-Props le-TodoItem. 
+destroyTodo mevace dispatch Action: DESTROY_TODO
+
+* Be toh TodoList meshtamshim ba-TodoItemContainer bemkom TodoItem
+
+* Leumat dugma kodemet, roim she lyo maaverim netunim shel Todo ke props
+ki TodoItemContainer jodea lekabel nitunim mi State levad 
+(rainu ze be mapStateToProps)
+
+* Ve TodoTtem Component ze oto UI Component le lyo shinuj.
 `;
 
 // noinspection JSUnusedGlobalSymbols

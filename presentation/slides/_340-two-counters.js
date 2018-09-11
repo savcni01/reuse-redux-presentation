@@ -4,9 +4,12 @@ import { TwoCountersApp } from "../live/counters-two";
 
 export const notes = `
 * Bo nire eih ze oved.
-* Ma she roim esh po baya, 6nej Counters ovdim be yahad 
-* Ve eih ef6ar lirot mi debug:
-6nej Containers ovdim im oto State
+
+* Megalim at a-baya, she shnej Counters ovdim be yahad 
+
+* Ve eih efshar lirot mi debug:
+shnej Containers ovdim im oto State 
+(ein shinuim be-oneMoreCounter)
 `;
 
 // noinspection JSUnusedGlobalSymbols

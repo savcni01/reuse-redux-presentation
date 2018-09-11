@@ -2,14 +2,14 @@ import React from "react";
 import { Slide, Markdown } from "spectacle";
 
 export const notes = `
+Toda raba.
 
-QA
-
+Seelot?
 `;
 
 export const markdown = `
 ## Thank you
-#### Questions...
+#### Questions?
 `;
 
 export default (

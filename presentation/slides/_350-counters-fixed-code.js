@@ -2,30 +2,28 @@ import React from "react";
 import CodeSlide from "spectacle-code-slide";
 
 export const notes = `
-* Bo nenase liftor ze bug
+* Bo nenase liftor bug
 
-* Meshanim kcat mivne shel State (ze lyo kriti, rak 6e ihie yoter noah)
+* Meshanim kcat mivne shel State (pahot hashuv, rak le nohut)
 
-* Osim Store, aval meshtamshim combinedReducer (nire youter meuhar ma ze)
+* Osim Store, aval meshtamshim combinedReducer (ma ze combinedReducer nadun meyuhar iouter)
 
-* Presentational Component ze oto component, ein shum shenuim
+* UI Component ze oto Component (le lyo shimuj)
 
-* Aval at App Components meshtamshim 6nej Containers shonim
-le-TOP ve le-BOTTOM counters 
+* Aval be-toh CounterApp meshtamshim be-shnej Containers shonim
+le-TOP ve le-BOTTOM Counters 
 
-* Ze Containers, ve efshar lirot she mapping funkciot gam sonim
-le-TOP ve le-BOTTOM counters 
+* Ele a-Containers, ve nitan lirot she mapping funkciot shonot gam ken
+le-TOP ve le-BOTTOM Counters 
 
-* Clomar be col shlav anahnu pashut meshahpelim code
-game be mapStateToProps esh le Top ve le Bottom
+* She omer be kol' shlav anahnu meshahpelim code
+gam be-mapStateToProps ve-gam be-mapDispatchToProps
 
-* Oto davar le mapDispatchToProps
+* Ahshav bo nestakel le combinedReducer,
+gam po nictareh leosif od Reducer, 
+ehad le-top, ve-ehad le-bottom
 
-* Ve ahshav bo nestakel le combinedReducer,
-roim she gam por anahnu crihim shnei reducereim, 
-ehad le-top,
-ve ehad le-bottom,
-kaha hem nirim
+* Ve ele a-Reducers acmam
 `;
 
 export default (

@@ -4,10 +4,9 @@ import CodeSlide from "spectacle-code-slide";
 export const notes = `
 * Kaha nira eicirat Store be-toh Code
 
-* Maaverim le-createStore Main Reducer (klomar kombinatsia shel' Reduce funkciyot) ve InitialState
-ve mekablim hazara Store
+* Maaverim at-Reducer ve-InitialState le-funkcia-createStore u-mekablim at a-Store be-hazara
 
-* createStore ze helek (method) shel' Redux
+* createStore hu helek (method) shel' Redux
 `;
 
 // noinspection JSUnusedGlobalSymbols

@@ -2,36 +2,37 @@ import React from "react";
 import CodeSlide from "spectacle-code-slide";
 
 export const notes = `
-* Bo nenase laasot et ze
+* Lets do it
 
-* nathil shuv mi mivne shel' State
+* Nnathil shuv mi mivne shel' State
 
 * be gadol anahnu le crihim shhum shenuim be-CounterApp
 akol' kvar muhan
 
-* ein gam shinuim be Container
+* Ein gam shinuim be Container
 
-* ve be-mapStateToProps
+* Ve be-mapStateToProps
 
-* ve po be mapSiaptchToProps, anahnu ken, yaholim leosif
-isolation shel' Action.
-Im esh isolateId, as bemcom originalDiapatch, 
-meacrim funkcia Dispatch hadasha
-she mekabelet action, ose transformation/isolation shel' Action.type
-mosifa prefix (clomar isolateId), ve rak as diaptch IsolatedAction
+* Ve po be mapDispatchToProps, anahnu ken, yaholim leosif isolation shel' Action.
+Be mejda ve-kibalnu isolateId az meacrim funkcia Dispatch a-hadasha bemcom originalDispatch
 
-* Kaha anahnu potrim issue im oto Action le shnej reducers
-Aval reducer ka rega lyo yodea laavod im prefixed actions
+* A funkcia hadasha mekabelet Action, u-mmevaca transformation (isolation) shel' Action.type
+mosifa prefix(isolateId), ve rak as dispatch IsolatedAction
 
-* Az be zman she ossim combinedReducer, anahnu osim 
-isolation gam le-Reducers
+* Kaha potrim at-a-nose im oto Action le shnej reducers
+Aval Reducer bentim lyo yodea laavod im prefixed/isolated actions.
 
-* isolateReducer ze HOF: mekabelet reducer -> mahzira isolatedReducer
-she reduce state al' basis prefixed (isolated) Action
-isolatedReducer parse action.type le prefix ve unisolatedAction
-bodek she prefix matim le isoalteId she mekablim kmo parameter shel 
-isolateReducer funckcia
-Ve im hu le matim, pashut mahzerim state, ve le osim shum reducing
+* Be maalah etcirat combinedReducer, bou naase isolation gam le-Reducers
+
+* isolateReducer ze HOF: hi mekabelet original reducer, ve-mahzira isolatedReducer
+
+* isolatedReducer - yodea reduce State lefi prefixed (isolated) Action
+
+isolatedReducer parse action.type le-prefix ve-unisolatedAction type
+bodek she prefix matim le isoalteId shel reducer (kebalnu oto ke parameter)
+
+Ve im hu lyo matim, pashut mahzerim state, ve le osim shum reducing
+
 Aval im isolateId ve prefix domim, az maricim originalReducer im unisolateAction
 `;
 

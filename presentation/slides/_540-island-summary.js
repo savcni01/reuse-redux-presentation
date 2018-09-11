@@ -2,10 +2,17 @@ import React from "react";
 import { Slide, Markdown } from "spectacle";
 
 export const notes = `
-*
- 
-_TODO:_
-* 
+Nesakem shimush ba-React-Redux-Island
+
+meacrim Container be ezrat islandedConnect
+
+Mosifim isolateId le-JSX
+
+Mosifim isolateId ve meshtamshim funkcia isolatReduce be Reducer Combination
+
+Meshtamshim Enhanced Middlewares
+
+Zeu!
 `;
 
 export const markdown = `

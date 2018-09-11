@@ -9,19 +9,15 @@ import {
 } from "spectacle";
 
 export const notes = `
-* Nahon u-kidai lehishtamesh be-Reuse lyo rak nirut or content (klomar UI)
-ah gam le hitnaagut (behaviour).
+* Nahon u-kidai lehishtamesh be-Reuse lyo rak le-nirut (klomar UI)
+ah gam le-hitnAAgut (behaviour).
 
 * A-shana a-rishona a-gdola menagenet ba-psanter
 A-ktana rokedet Ricudim Salonim
 
-* Be shana a-baa 
+* Be shana a-baa - Reuse... Shteien gam minagnot u-rokdot 
 
-* Ve be od shana, osim reuse... 
-* Ve bli eoter me dai koah nosefet me a-orim:
-* Shhnehen gam minagnim piano be konservatorion,
-* Ve gam rokdim Rikudim Salonim.
-* Be koding anahnu gam tsrihim reuse behaviour ve/o business logic.
+* Ma she neejmar codem: The same for code.
 `;
 
 const nikaPiano = require("../../assets/nika-piano.mp4");
