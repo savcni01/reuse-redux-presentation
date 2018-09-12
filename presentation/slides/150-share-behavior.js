@@ -27,7 +27,7 @@ const vikaDance = require("../../assets/vika-dance.mp4");
 
 export default (
   <Slide transition={["fade"]} height={"100%"}>
-    <Heading size={5}>Behavior Reuse</Heading>
+    <Heading size={5}>Behavior</Heading>
     <Layout>
       <Fill>
         <Appear fid="1">

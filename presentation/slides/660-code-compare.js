@@ -26,14 +26,14 @@ export default (
       <Fill>
         <Heading margin="0 auto" size={6}>Duplication</Heading>
         <Image
-          width={"150px"}
+          width={"100px"}
           src={img1.replace("./", "")}
         />
       </Fill>
       <Fill>
-        <Heading margin="0 auto" size={6}>Hand made</Heading>
+        <Heading margin="0 auto" size={6}>Improved</Heading>
         <Image
-          width={"140px"}
+          width={"100px"}
           // height={"560px"}
           src={img2.replace("./", "")}
         />
@@ -41,7 +41,7 @@ export default (
       <Fill>
         <Heading margin="0 auto" size={6}>Island</Heading>
         <Image
-          width={"150px"}
+          width={"100px"}
           // height={"560px"}
           src={img4.replace("./", "")}
         />

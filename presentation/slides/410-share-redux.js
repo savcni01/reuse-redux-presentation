@@ -36,7 +36,7 @@ ve biglal boilerplate shel Redux.
 `;
 
 export const markdown = `
-## Levels of reusing
+## Ways of reuse
 
 * Presentational Components
 * Sub Modules (Widgets)

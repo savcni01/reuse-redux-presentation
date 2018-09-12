@@ -26,7 +26,7 @@ export default (
     <Heading
       size={3}
       bgColor="background"
-    >Reuse with changes</Heading>
+    >Reuse and change</Heading>
     <Appear fid="1">
       <Image src={images.breakfast2.replace("./", "")}/>
     </Appear>

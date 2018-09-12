@@ -25,10 +25,10 @@ ve kamuvan oved mitsuyan im React.
 export const markdown = `
 ## Redux Basics
 * Store: holds application State
-* Actions: object, describe changes to State 
-* Reducers: function defined how to transform State
-* View: render UI on base of State
-* Store Middlewares: place for side effects of App
+* Action: object describing changes 
+* Reducer: function that defines how to transform State
+* View: renders UI based on State
+* Store Middlewares: third-party extension point 
 `;
 
 export default (

@@ -24,11 +24,11 @@ export const markdown = `
 ## Agenda
 #### What you gonna hear
 
-* Reusability at Web applications
-* Reusability at React-Redux applications
+* Reusability in Web applications
+* Reusability in React-Redux applications
 * React and Redux basics
 * Try naive approach for code reuse 
-* Try to find better way
+* Try to find a better way
 * React Redux Island
 `;
 

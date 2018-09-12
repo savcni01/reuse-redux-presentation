@@ -19,9 +19,9 @@ export const markdown = `
 ## React Redux Integration
 
 * React-Redux lib is React binding for Redux
-* Provider - make Redux Store available to connect to components
-* connect - connects React Component to a Redux Store 
-* connect - is HOC, returns new Connected Component
+* Provider - makes Redux Store available to connect to components
+* connect - connects React Component to a Redux Store. 
+* connect - HOC, returns new Connected Component
 `;
 
 export default (

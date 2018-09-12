@@ -25,7 +25,7 @@ export const markdown = `
 * JavaScript, HTML/CSS
 * Node.js
 * 20+ in Web development
-* married +2
+* Married +2
 `;
 
 export default (

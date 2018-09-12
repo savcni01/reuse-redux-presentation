@@ -22,11 +22,11 @@ bishvil lyo laasot at ze be col' Container.
 `;
 
 export const markdown = `
-## Summary
+## What we did
 
-* Specify subset/slice of store at Container
+* Specify subset/slice of store in Container
 * Isolate Actions: use prefix from JSX
-* Isolate Reducer: Use same prefix at combinedReducer
+* Isolate Reducer: Use same prefix in combinedReducer
 `;
 
 export default (

@@ -22,12 +22,12 @@ Business logic shel' rahivim (Components).
 `;
 
 export const markdown = `
-## Why, what, how?
+## Why Reuse
 
-* Big App need share/reuse code
+* Big App needs to share/reuse code
 * DRY: Don't Repeat Yourself
 * UI, Content, Behaviour Reuse
-* Redux architecture have limits for code reuse
+* Reuse in Redux can be problematic
 `;
 
 export default (

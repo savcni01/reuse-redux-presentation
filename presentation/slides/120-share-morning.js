@@ -26,7 +26,7 @@ export default (
     <Heading
       size={3}
       bgColor="background"
-    >Reuse help solve issues</Heading>
+    >Reuse makes life easier</Heading>
     <Appear fid="1">
       <Image
         src={images.morning2.replace("./", "")}
