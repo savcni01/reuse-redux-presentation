@@ -2,23 +2,23 @@ import React from "react";
 import { Slide, Markdown } from "spectacle";
 
 export const notes = `
-* Bo nisakem 
+Bo nisakem 
 
-* Be mapStateToProps ovdim im Slice shel State, ve lyo cals a-State. 
+Be mapStateToProps ovdim im Slice shel State, ve lyo kol' a-State. 
 Osim Slice al basis isolateId or funkcia selector le mekrim meurkavim.
 
-* Be-mapDispatchToProps - osim isolation shel Action, mosifim prefix lefi oto isolateId
+Be-mapDispatchToProps - osim isolation shel Action, mosifim prefix lefi oto isolateId
 
-* Be zman shel ecira combinedReducer, meshtamsim ba-HOF
+Be zman shel ecira combinedReducer, meshtamsim ba-HOF
 isolateReducer im oto isolateId, beshvil leacer reducer 
 hadash - isolatedReduser.
 
-* Ve isolatedReducer, iodea laavod ve lefalter isolated Actions
+Ve isolatedReducer, iodea laavod ve lefalter isolated Actions
 
-* Anahnu od crihim incapsulate kol' workarounds shelanu,
+Anahnu od crihim incapsulate kol' workarounds shelanu,
 bishvil lyo laasot at ze be col' Container.
 
-* Kvar buca!
+Kvar buca!
 `;
 
 export const markdown = `

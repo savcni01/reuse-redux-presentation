@@ -18,7 +18,7 @@ Zeu!
 export const markdown = `
 ## Redux Containers Reuse Summary
 
-* Create with islandedConnect
+* Create with isolatedConnect
 * Provide isolateId in JSX
 * Provide isolateId during reduce combination
 * Use enhanced middleware for Redux thunk/saga/epics/logic etc.

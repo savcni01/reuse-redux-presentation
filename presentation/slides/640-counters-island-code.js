@@ -2,7 +2,7 @@ import React from "react";
 import CodeSlide from "spectacle-code-slide";
 
 export const notes = `
-Import shel islandConnect, isolatereducer ve-makeReducer
+Import shel isolatedConnect, isolateReducer ve-makeReducer
 
 Mevne shel State
 
@@ -15,12 +15,12 @@ Notnim prefixes (isolateID) TOP ve-BOTTOM
 
 Be CounterApp meshtamshim CounterContainera im isolateId ve funkciot Selector
 
-Meshtamshim islandedConnect me React-Redux-Iland bemcom connect me React-Redux le ecirat Container
+Meshtamshim isolatedConnect me React-Redux-Island bemcom connect me React-Redux le-ecirat Container
 
-mapStateToProps kvar mekabelet slicedState bemcom state (toda le islandedConnect)
+mapStateToProps kvar mekabelet slicedState bemcom state (toda le isolatedConnect)
 
 mapDispatchToProps kvar mekabelet isolatedDisptach bemcom dispatch
-isolatedDispatch iodae leosif isolateId ke prefix le Action.type (toda le islandedConnect)
+isolatedDispatch iodae leosif isolateId ke prefix le Action.type (toda le isolatedConnect)
 
 Le doresh shum shenuj nosaff me shum macom aher: le ba-reducer, le-baUI Component
 `;

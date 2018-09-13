@@ -2,11 +2,11 @@ import React from "react";
 import { Appear, Heading, Image, Slide } from "spectacle";
 
 export const notes = `
-* Od dugma.. Meshanim le rak style, ceva or godel...
+Ve-od dugma... Meshanim le rak style, ceva or godel...
 
-* Ah gam tohen shel Reusing Components. 
+Ah gam tohen shel Reusing Components. 
 
-* Ve shuv ze oved oto davar be tihnut (coding).
+Ve shuv ze oved oto davar be tihnut.
 `;
 
 const images = {

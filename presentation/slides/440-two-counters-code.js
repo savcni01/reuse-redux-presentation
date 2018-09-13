@@ -2,16 +2,16 @@ import React from "react";
 import CodeSlide from "spectacle-code-slide";
 
 export const notes = `
-* Ahshav bo nenase leosif od CounterContainer le applikacia.
-Nathile be a dereh pshuta (Naive, straight forward approach).
+Bo nire.... nosif od CounterContainer le applikacia.
+Nathil mi Naive approach.
 
-* Mathilim mi mivne shel State. Mosifim oneMoreCount.
+Ze mivne shel State. Mosifim oneMoreCount.
 
-* Meacrim Store
+Meacrim Store
 
-* Ve pashut mosifim od CounterContainer ehad le-CounterApp 
+Ve pashut mosifim od CounterContainer ehad le-CounterApp 
 
-* Kshe ze oto CounterContainer she rainu codem, le lyo shinuj.
+Kshe ze oto CounterContainer she rainu codem, le lyo shinuj.
 `;
 
 export default (

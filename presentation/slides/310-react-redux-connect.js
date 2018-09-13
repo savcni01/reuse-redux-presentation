@@ -2,29 +2,28 @@ import React from "react";
 import { Heading, Image, Slide } from "spectacle";
 
 export const notes = `
-* Helek sheni shel React-Redux hu Connect
+Helek sheni shel React-Redux hu Connect
 
-* Ve po ba-diagrama, roim eih Connect oved
-
-* Amarnu she Connect ze funkcia 
+Amarnu she Connect ze funkcia 
 ve-sheni argumentim reshonim shel' Connect 
 ze gam funkciot: mapStateToProps ve-mapDispatchToProps 
 
-* funkcia mapStateToProps mekabelet at-State
+funkcia mapStateToProps mekabelet at-State
 Ve mahzira at-a-Object im netunim me a-State
 she iuyvru le-TodoItem ke Props
 
-* funkcia mapDispatchToProps meafsheret leavir 
-ar-dispatch-Action funkciot ke Props le-TodoItem
+funkcia mapDispatchToProps meafsheret leavir 
+at-dispatch-Action funkciot ke Props le-TodoItem
 ve be-toh Event Handlers , TodoItem yahol levace dispatch le-Action
 
-* Ve kah funkcia Connect mahzira at-Compmponent hadash:
+Ve kah funkcia Connect mahzira at-Compmponent hadash:
 ConnectedComponent or SmartComponent or ReduxContainer
-leumat a Component pashut - she anahnu korim Presentional Compoentn ot UI Component or DumbComponent)
+
+Leumat a Component pashut - she anahnu korim Presentional Compoentn ot UI Component or DumbComponent)
 `;
 
 // const img = require("../../assets/react-redux-final-connect.svg");
-const img = require("../../assets/react-redux-todo-app.png");
+const img = require("../../assets/rr.004.png");
 
 // noinspection JSUnusedGlobalSymbols
 export default (

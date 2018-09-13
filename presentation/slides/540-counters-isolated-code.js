@@ -2,31 +2,28 @@ import React from "react";
 import CodeSlide from "spectacle-code-slide";
 
 export const notes = `
-* Lets do it
+Lets do it...
 
-* Nnathil shuv mi mivne shel' State
+Nnathil shuv mi mivne shel' State
 
-* be gadol anahnu le crihim shhum shenuim be-CounterApp
-akol' kvar muhan
+Be-gadol anahnu le crihim shum shenuim be-CounterApp akol' kvar muhan
 
-* Ein gam shinuim be Container
+Ein gam shinuim be Container, Ve be-mapStateToProps
 
-* Ve be-mapStateToProps
-
-* Ve po be mapDispatchToProps, anahnu ken, yaholim leosif isolation shel' Action.
+Ve po be mapDispatchToProps, anahnu ken, mosifim isolation shel' Action.
 Be mejda ve-kibalnu isolateId az meacrim funkcia Dispatch a-hadasha bemcom originalDispatch
 
-* A funkcia hadasha mekabelet Action, u-mmevaca transformation (isolation) shel' Action.type
+A funkcia hadasha mekabelet Action, u-mmevaca transformation (isolation) shel' Action.type
 mosifa prefix(isolateId), ve rak as dispatch IsolatedAction
 
-* Kaha potrim at-a-nose im oto Action le shnej reducers
+Kaha potrim at-a-nose im oto Action le shnej reducers
 Aval Reducer bentim lyo yodea laavod im prefixed/isolated actions.
 
-* Be maalah etcirat combinedReducer, bou naase isolation gam le-Reducers
+Be maalah etcirat combinedReducer, bou naase isolation gam le-Reducers
 
-* isolateReducer ze HOF: hi mekabelet original reducer, ve-mahzira isolatedReducer
+isolateReducer ze HOF: hi mekabelet original reducer, ve-mahzira isolatedReducer
 
-* isolatedReducer - yodea reduce State lefi prefixed (isolated) Action
+isolatedReducer- yodea reduce State lefi prefixed (isolated) Action
 
 isolatedReducer parse action.type le-prefix ve-unisolatedAction type
 bodek she prefix matim le isoalteId shel reducer (kebalnu oto ke parameter)
@@ -36,6 +33,7 @@ Ve im hu lyo matim, pashut mahzerim state, ve le osim shum reducing
 Aval im isolateId ve prefix domim, az maricim originalReducer im unisolateAction
 `;
 
+// noinspection JSUnusedGlobalSymbols
 export default (
   <CodeSlide
     transition={["fade"]}

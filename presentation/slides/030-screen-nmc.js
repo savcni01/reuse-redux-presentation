@@ -2,9 +2,9 @@ import React from "react";
 import { Slide } from "spectacle";
 
 export const notes = `
-* Bou nire mispar screenshots shel' web applikacia shelanu.
+Bou nire mispar screenshots shel' web applikacia shelanu.
 
-* Nilsen Marketing Cloud.
+NMC - Nilsen Marketing Cloud.
 `;
 
 const bg = require("../../assets/nmc1.png");

@@ -2,11 +2,11 @@ import React from "react";
 import CodeSlide from "spectacle-code-slide";
 
 export const notes = `
-* Kaha nira eicirat Store be-toh Code
+Kaha nira eicirat Store be-toh Code
 
-* Maaverim at-Reducer ve-InitialState le-funkcia-createStore u-mekablim at a-Store be-hazara
+Maaverim at-a-Reducer ve-InitialState le-funkcia-createStore
 
-* createStore hu helek (method) shel' Redux
+createStore hu helek shel' Redux
 `;
 
 // noinspection JSUnusedGlobalSymbols

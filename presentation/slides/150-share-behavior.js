@@ -9,15 +9,15 @@ import {
 } from "spectacle";
 
 export const notes = `
-* Nahon u-kidai lehishtamesh be-Reuse lyo rak le-nirut (klomar UI)
-ah gam le-hitnAAgut (behaviour).
+Nahon u-kidai lehishtamesh ba-Reuse lyo rak le-nirut 
+ah gam le-hitnAAgut.
 
-* A-shana a-rishona a-gdola menagenet ba-psanter
+A-shana a-rishona a-gdola menagenet ba-psanter,
 A-ktana rokedet Ricudim Salonim
 
-* Be shana a-baa - Reuse... Shteien gam minagnot u-rokdot 
+Be shana a-baa... Reuse... Shteien gam minagnot u-gam-rokdot 
 
-* Ma she neejmar codem: The same for code.
+Ma she neejmar codem: The same for code.
 `;
 
 const nikaPiano = require("../../assets/nika-piano.mp4");

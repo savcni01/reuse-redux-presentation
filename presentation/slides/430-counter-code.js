@@ -2,32 +2,32 @@ import React from "react";
 import CodeSlide from "spectacle-code-slide";
 
 export const notes = `
-* Nistakel le code shel Redux Counter App
+Nistakel le code...
 
-* Mathilim mi mivne shel State. Esh rak parameter ehad: count
+Mathilim mi mivne shel State. Esh rak parameter ehad: count
 
-* Kan meacrim Store, meshtamshim ba-funkcia createStore im reducer 
+Kan meacrim Store, meshtamshim ba-funkcia createStore im reducer 
 (she oto nire meuhar ioter)
 
-* Bou naavor le React Component: 
+Bou naavor le React Component: 
 roim output shel Counter, 
 shnej kaftorim [+] [-] im click handlers
 
-* Meshalvim React ve-Redux:
-roim po CounterApp im Provider ve-Store
-Aplikacia meshtameshet ba-Container (lyo UI Component)
+Meshalvim React ve-Redux:
+roim po CounterApp im Provider ve-Store.
+Aplikacia meshtameshet ba-Container (lyo UI Component yashar)
 
-* Meacrim CounterContainer: mehabrim (im Connect) at-CounterComponent le-Store 
+Meacrim CounterContainer: mehabrim (im Connect) at-CounterComponent le-Store 
 mekablim CounterContainer
 
-* Medkadmim le-mapping shel' State le-Props shel' UI-Counter-Component
+Medkadmim le-mapping shel' State le-Props
 
-* Ve hine: mapping dispatch shel' Actions (increment ve decrement) 
-le-Trops shel' oto UI-Counter-Component
+Ve hine: mapping dispatch shel' Actions (increment ve decrement) le-Props
 
-* Ve kaha nira Reducer, she magiv le-shnej Actions: 
+Ve kaha nira Reducer, she magiv le-shnej Actions: 
 COUNTER_INCREMENT Reducer mosive 1 le-count
 ve-COUNTER_DECREMENT Reducer morid 1 mi-count
+
 Simu lev Reduser mahzir Object/State hadash ve lyo mishane (lyo Mutate) State a-codem
 `;
 

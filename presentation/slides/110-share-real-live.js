@@ -1,13 +1,12 @@
 import React from "react";
 import { Slide, Markdown } from "spectacle";
 
+// Ulay mishu sam lev be shkafim a-rishomin ciyanti nasui+2.
+
 export const notes = `
-* Kdei lehavi nose shel' Reuse le-barur be-ioter, ismah laarot kama dugmaot me a-haim amitim (lyo koding).
+Kdei lehavi nose shel' Reuse le-barur be-ioter, ismah laarot kama dugmaot me a-haim amitim (lyo koding).
 
-* Ulay mishu sam lev be shkafim a-rishomin ciyanti nasui+2.
-
-* Be rega she esh lahem stej banot bnot 7 ve-10 - mathilim leavin tov meod eaih lehishtames ba-Reuse
-ma ze noten leha, be ma ze ozer, ve esh leha tonnot shel dugmaot
+Esh li shei banot... bnot 7 ve-10 - ve-ani lomadeti tov meod eih lehishtames ba-Reuse
 `;
 
 export const markdown = `

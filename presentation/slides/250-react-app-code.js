@@ -2,16 +2,17 @@ import React from "react";
 import CodeSlide from "spectacle-code-slide";
 
 export const notes = `
-* Bo nistakel al code. Lakahti ehad me a dugmaot mufersaot: aplikacia TODO
+Bo nistakel al code shel' dugma
 
-* Meranderim TodoApp Component le-root Container on page
+Meranderim TodoApp Component le-root Container on page
 
-* Be toh TodoApp roim shnej Components: TodoFilters ve-TodoList
-* Component TodoList mekabelet reshima shel Todos ke Prop
+Be toh TodoApp roim shnej Components: TodoFilters ve-TodoList
 
-* Be toh TodoList anahnu Iterate reshima shel Todos ve meranderim kol ahad me Todo Item
+Component TodoList mekabelet reshima shel Todos ke Prop
+
+Be toh TodoList anahnu Iterate reshima shel Todos ve meranderim kol ahad me Todo Item
  
-* Kaha nira TodoItem: mekabel me hore (TodoList) nitunim shel Todo ve-merander name, delete button.
+Kaha nira TodoItem: mekabel me hore (TodoList) nitunim shel Todo ve-merander name, delete button.
 `;
 
 // noinspection JSUnusedGlobalSymbols

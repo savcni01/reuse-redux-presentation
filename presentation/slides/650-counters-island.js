@@ -3,7 +3,7 @@ import { Slide, Heading } from "spectacle";
 import { CounterApp } from "../live/counters";
 
 export const notes = `
-* bodkim she akol oved
+bodkim she akol oved
 `;
 
 export default (

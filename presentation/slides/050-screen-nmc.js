@@ -2,9 +2,11 @@ import React from "react";
 import { Slide } from "spectacle";
 
 export const notes = `
-* Eih she atem roim...
+Od daf... Eih she atem roim be-dapim shonim...
 
-* Esh arbe eizorim she nirim zehim or kimat, be-dapim shonim.
+Esh arbe eizorim she zehim or baalej dimyon.
+
+Le dugma oto SearchBox mi-small, ve-oto Toggle (all-enable-disable) be-emca 
 `;
 
 const bg = require("../../assets/nmc2.png");

@@ -2,15 +2,15 @@ import React from "react";
 import { Heading, Layout, Fill, Image, Slide } from "spectacle";
 
 export const notes = `
-* Nitan lirotcode listing shel shlosha pitronot: 
+Nitan lirotcode listing shel shlosha pitronot: 
 
-* Rishon - naive copy-past approach
+Rishon - naive copy-past approach
 
-* Sheni - girsat isolate, custom hand made solution
+Sheni - girsat isolate, custom hand made solution
 
-* Shlishi - girsa im sefriya React-Redux-Island
+Shlishi - girsa im sefriya React-Redux-Island
 
-* Kmo she atem roim girsa im Island ahi kcara.
+Kmo she atem roim girsa im Island ahi kcara.
 `;
 
 const img1 = require("../../assets/counters-naive.png");

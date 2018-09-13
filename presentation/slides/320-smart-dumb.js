@@ -4,7 +4,7 @@ import { Heading, Layout, Table, TableHeader, TableRow, TableHeaderItem, TableBo
 export const notes = `
 Lefnej sh anahnu naavor le kod
 
-Bo nire od paam ba omek evdel ben UI (or Presentional) Component ve Redux Container (Connected Component)
+Bo nire od paam ba omek evdel ben UI Component ve Redux Container
 `;
 
 

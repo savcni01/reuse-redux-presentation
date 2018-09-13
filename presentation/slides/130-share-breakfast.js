@@ -7,13 +7,13 @@ const images = {
 };
 
 export const notes = `
-* Od dugma... Kmo aba tov, tamid aiti ahrai al aruhat boker le-gdola.
+Od dugma... Kmo aba tov, tamid aiti ahrai al aruhat boker le-gdola.
 
-* U kmo methanet (tov) ishtamshti be-Reuse ba-ahanat aruhat boker gam le-ktana.
+U kmo methanet (tov) ishtamshti be-Reuse ba-ahanat aruhat boker gam le-ktana.
 
-* Simu lev she lefamim be-shemush hozer nitan lishanot style: ceva, godel, ve hulej
+Simu lev she lefamim be-shemush hozer nitan lishanot style: ceva, godel, ve hulej
 
-* Roim ze po, be dugma, ve be tehnut ze oved oto davar bidiuk.
+Be tehnut ze oved oto davar.
 `;
 
 // noinspection JSUnusedGlobalSymbols

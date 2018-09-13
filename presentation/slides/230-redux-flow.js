@@ -2,19 +2,25 @@ import React from "react";
 import { Heading, Image, Slide } from "spectacle";
 
 export const notes = `
-* Basic Redux Flow diagram
+Nathil me Redux basics
 
-* Anahnu roim Store she mahzik at a-State
+Atar shel Redux magdir sifriyat kmo:
+Predictable State-Container le niul' State shel' aplikaciya
 
-* Al basis State meranderim View - UI shel' aplikacia
+Anahnu roim Store, hu mahzik State shel' aplikacia, meafsher gisha le State,
+meafsher le state lehitatken be amcaut dispatch shel' Actions
 
-* Kol' User Event mafil' Action le-Store
+Al basis State meranderim View - UI shel' aplikacia
 
-* Store magiv le- Action
+Kol' User Event mafil' Action le-Store
 
-* Ve-mevace Reduce shel State: klomar al basis shel' Action ve-Sstate a-nohehi mahzir State a-hadash
+Store magiv le- Action
 
-* View merundar shuv kavr al a-basis a-State a-hadash
+Ve-mevace Reduce shel State: 
+klomar al basis shel' Action ve-State a-nohehi 
+mahzir State a-hadash.
+
+View merundar shuv, mevusas al-State a-hadash
 `;
 
 const img = require("../../assets/redux-flow.gif");

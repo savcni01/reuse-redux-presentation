@@ -2,13 +2,13 @@ import React from "react";
 import { Appear, Heading, Image, Slide } from "spectacle";
 
 export const notes = `
-* Itargenut shel a-boker shel bat a-gdolya.
+Itargenut shel a-boker shel bat a-gdolya.
 Akol' oved kmo shaon shvecari.
 
-* Ad le rega sha ahota a-ktana baa.
-Vikuhim, rivim, ibud shel a-zman.
+Ad le rega she ahota a-ktana baa:
+Vikuhim, rivim, mi rishiona, mi sniya, ibud shel a-zman.
 
-* Eih nitan liftor?.. Reuse - bahaya niftera.
+Eih nitan liftor?.. Reuse... Bahaya niftera.
 `;
 
 const images = {

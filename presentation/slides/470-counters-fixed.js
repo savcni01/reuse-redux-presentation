@@ -3,11 +3,11 @@ import { Slide, Heading } from "spectacle";
 import { TwoCountersFixed } from "../live/counters-two-fixed";
 
 export const notes = `
-* Roim she ahsav akol' oved kmo she metuhnan
+Roim she ahsav akol' oved kmo she metuhnan
 
-* Kol ehad me Counter be nifrad
+Kol ehad me Counter be nifrad
 
-* Gam kshe bodkim be debug, 
+Gam kshe bodkim be debug, 
 roim she akol oved kmo she carih, TOP, BOTTOM
 `;
 

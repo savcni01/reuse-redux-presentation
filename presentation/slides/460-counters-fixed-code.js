@@ -2,28 +2,28 @@ import React from "react";
 import CodeSlide from "spectacle-code-slide";
 
 export const notes = `
-* Bo nenase liftor bug
+Bo nenase liftor bug
 
-* Meshanim kcat mivne shel State (pahot hashuv, rak le nohut)
+Meshanim kcat mivne shel State (pahot hashuv, rak le nohut)
 
-* Osim Store, aval meshtamshim combinedReducer (ma ze combinedReducer nadun meyuhar iouter)
+Osim Store, aval meshtamshim combinedReducer (ma ze combinedReducer nadun meyuhar iouter)
 
-* UI Component ze oto Component (le lyo shimuj)
+UI Component ze oto Component (le lyo shimuj)
 
-* Aval be-toh CounterApp meshtamshim be-shnej Containers shonim
+Aval be-toh CounterApp meshtamshim be-shnej Containers shonim
 le-TOP ve le-BOTTOM Counters 
 
-* Ele a-Containers, ve nitan lirot she mapping funkciot shonot gam ken
+Ele a-Containers, ve nitan lirot she mapping funkciot shonot gam ken
 le-TOP ve le-BOTTOM Counters 
 
-* She omer be kol' shlav anahnu meshahpelim code
+She omer be kol' shlav anahnu meshahpelim code
 gam be-mapStateToProps ve-gam be-mapDispatchToProps
 
-* Ahshav bo nestakel le combinedReducer,
+Ahshav bo nestakel le combinedReducer,
 gam po nictareh leosif od Reducer, 
 ehad le-top, ve-ehad le-bottom
 
-* Ve ele a-Reducers acmam
+Ve ele a-Reducers acmam
 `;
 
 export default (
