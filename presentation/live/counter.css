@@ -1,20 +1,20 @@
 
 .counter-example {
     height: 100%;
-    margin: 2rem;
-    margin: 3rem auto;
+    margin: 2em;
+    margin: 3em auto;
 }
 
 .counter-example h2 {
     font-family: georgia;
     margin: 0 auto;
     color: lightblue;
-    font-size: 7rem;
+    font-size: 3em;
 }
 
 .counter-example fieldset {
     border: none;
-    margin-top: -3rem;
+    margin-top: -2em;
 }
 
 .counter-example button {
@@ -22,15 +22,16 @@
     border: 2px solid lightblue;
     background: transparent;
     color: lightblue;
-    width: 4rem;
-    height: 4rem;
+    font-size: 1em;
+    width: 2em;
+    height: 2em;
 }
 
 .counter-example button:first-child {
-    margin-right: 8rem;
+    margin-right: 4em;
 }
 
 .counter-example button:last-child {
-    margin-left: 8rem;
+    margin-left: 4em;
 }
 

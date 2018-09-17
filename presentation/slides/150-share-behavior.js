@@ -15,7 +15,7 @@ ah gam le-hitnAAgut.
 A-shana a-rishona a-gdola menagenet ba-psanter,
 A-ktana rokedet Ricudim Salonim
 
-Be shana a-baa... Reuse... Shteien gam minagnot u-gam-rokdot 
+Be shana a-baa... Reuse... SHTEIEN gam minagnot u-gam-rokdot 
 
 Ma she neejmar codem: The same for code.
 `;

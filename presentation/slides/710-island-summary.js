@@ -4,7 +4,7 @@ import { Slide, Markdown } from "spectacle";
 export const notes = `
 Nesakem shimush ba-React-Redux-Island
 
-meacrim Container be ezrat islandedConnect
+meacrim Container be ezrat isolatedConnect
 
 Mosifim isolateId le-JSX
 

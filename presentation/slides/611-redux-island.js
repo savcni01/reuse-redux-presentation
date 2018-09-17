@@ -2,9 +2,9 @@ import React from "react";
 import { Heading, Slide } from "spectacle";
 
 export const notes = `
-Oops... one mor React-Redux-Isdlan, pahut hayu asorot shel' variaciot
+Oops... od React-Redux-Island ehad, pahut hayu asorot shel' variaciot
 
-Baharnu shnaim, ve lyo yandanu ezo me hem ioter tov, atem eholim livhor
+Ba sof baharnu staim, ve-lyo yandanu ezo ioter tov, az-atem eholim livhor!
 `;
 
 // const bg = require("../../assets/redux-island.jpg");

@@ -9,7 +9,7 @@ const images = {
 export const notes = `
 Od dugma... Kmo aba tov, tamid aiti ahrai al aruhat boker le-gdola.
 
-U kmo methanet (tov) ishtamshti be-Reuse ba-ahanat aruhat boker gam le-ktana.
+U kmo mefateah ishtamshti be-Reuse ba-ahanat aruhat boker gam le-ktana.
 
 Simu lev she lefamim be-shemush hozer nitan lishanot style: ceva, godel, ve hulej
 

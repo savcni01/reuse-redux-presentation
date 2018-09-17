@@ -10,11 +10,11 @@ Provider meafsher le Redux-Store lihiot zamin le-Connect le-React Components
 
 A-helek a-sheni shel' React-Redux hu funkcia CONNECT
 
-* connect - mahaber React component le-State
+connect - mahaber React component le-State
 
-* connect - le maase hu H-O-C, 
+connect - le maase hu H-O-C, 
 
-* connect lyo mevace shinuim be React Component, 
+connect lyo mevace shinuim be React Component, 
 ah mahzir at-Component a-hadash
 `;
 

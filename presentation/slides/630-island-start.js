@@ -11,7 +11,7 @@ npm install - dei pashut
 export default (
   <Slide transition={["fade"]}>
     <Heading size={5}>React-Redux-Island in use</Heading>
-    <div style={{color: "black"}}>
+    <div style={{color: "black", scale: 0.3}}>
       <Terminal title="1. npm /reuse-redux" color="black" output={[
         "npm install --save react-redux-island",
         <div key={12} style={{ color: "#33B969" }}>

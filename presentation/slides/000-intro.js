@@ -12,8 +12,8 @@ React Redux Island - a right way to reuse Redux
 `;
 
 export const markdown = `
-## React Redux Island
-#### a right way to reuse Redux
+# React Redux Island
+### a right way to reuse Redux
 `;
 
 export default (

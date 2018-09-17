@@ -35,15 +35,15 @@ const reducer = function (state = {}, action) {
 };
 
 // helper HOF - isolate reducer
-const isolateReducer = (isolateId, originalReducer, initialState) => {
-  return (state = initialState, action) => {
-    const [isolateIdFromAction, unisolatedAction] = action.type.split(".");
-    if (isolateId !== isolateIdFromAction) {
-      console.log("action with ALIEN prefix", isolateId, action.type);
+const isolateReducer = (isolateId, reducer, iState) => {
+  return (state = iState, action) => {
+    const [isolateIdAction, unisolatedAction] = action.type.split(".");
+    if (isolateId !== isolateIdAction) {
+      // do nothing
       return state;
     }
-    console.log("action with MY prefix", isolateId, action.type);
-    return originalReducer(state, {
+    // reduce
+    return reducer(state, {
       ...action,
       type: unisolatedAction
     });
@@ -113,21 +113,21 @@ const mapStateToProps = (state, { isolateId, selector }) => {
 // isolated dispatch mapping
 const mapDispatchToProps = (dispatch, { isolateId }) => {
   if (isolateId) {
-    const originalDispatch = dispatch;
-    dispatch = ((action) => {
+    // new dispatch
+    const newDispatch = ((action) => {
       const prefixedType = `${isolateId}.${action.type}`;
       const isolatedAction = {
         ...action,
         type: prefixedType
       };
-      return originalDispatch(isolatedAction);
+      return dispatch(isolatedAction);
     });
   }
   return {
-    increment: () => dispatch({
+    increment: () => newDispatch({
       type: "COUNTER_INCREMENT"
     }),
-    decrement: () => dispatch({
+    decrement: () => newDispatch({
       type: "COUNTER_DECREMENT"
     })
   };

@@ -6,15 +6,15 @@ Helek sheni shel React-Redux hu Connect
 
 Amarnu she Connect ze funkcia 
 ve-sheni argumentim reshonim shel' Connect 
-ze gam funkciot: mapStateToProps ve-mapDispatchToProps 
+ze gam funkciot:
 
 funkcia mapStateToProps mekabelet at-State
 Ve mahzira at-a-Object im netunim me a-State
-she iuyvru le-TodoItem ke Props
+she IUYVRU le-TodoItem ke Props
 
 funkcia mapDispatchToProps meafsheret leavir 
 at-dispatch-Action funkciot ke Props le-TodoItem
-ve be-toh Event Handlers , TodoItem yahol levace dispatch le-Action
+ve be-toh Event Handlers, TodoItem yahol levace dispatch le-Action
 
 Ve kah funkcia Connect mahzira at-Compmponent hadash:
 ConnectedComponent or SmartComponent or ReduxContainer

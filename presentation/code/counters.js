@@ -4,7 +4,7 @@ import { number, func } from "prop-types";
 import { combineReducers, bindActionCreators } from "redux";
 import { Provider } from "react-redux";
 import {
-  islandedConnect,
+  isolatedConnect,
   isolateReducer,
   makeReducer
 } from "react-redux-island";
@@ -105,7 +105,7 @@ const mapDispatchToProps = (dispatch) => ({
 });
 
 // create isolated Container
-const CounterContainer = islandedConnect(
+const CounterContainer = isolatedConnect(
   mapStateToProps,
   mapDispatchToProps
 )(Counter);
